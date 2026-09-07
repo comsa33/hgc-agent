@@ -1,0 +1,265 @@
+query_id,phase,question,gold_answer,predicted_answer,judge_verdict,judge_reasoning,your_label,justification
+1604.08504_q2,AC-RAG,How do they detect spammers?,Extract features from the LDA model and use them in a binary classification task,"They detect spammers by extracting topic-based features from users' historical tweets. Specifically, they use the Latent Dirichlet Allocation (LDA) model to compute the topic distribution for each user. Based on the topic probabilities, they extract two features:
+
+1. **Local Outlier Standard Score (LOSS):** Captures the user's interests on different topics (local information).
+2. **Global Outlier Standard Score (GOSS):** Reveals the user's interests on specific topics in comparison with other users (global information).
+
+These features are then used to distinguish spammers (including ""smart"" spammers who mimic legitimate users) from legitimate users. The method is validated on both a public dataset (Social Honeypot) and a self-collected Weibo dataset, showing that the combination of LOSS and GOSS can effectively detect spammers by analyzing differences in topic distribution patterns.",yes,"The predicted answer elaborates on the correct answer, detailing the LDA-based feature extraction (LOSS and GOSS) and their use in binary classification to detect spammers, matching the core method described.",yes,
+1806.04511_q2,AC-RAG,what datasets were used in evaluation?,"SemEval-2016 Challenge Task 5 BIBREF27 , BIBREF28","The datasets used for evaluation are:
+
+- CNN/DailyMail news highlights dataset
+- New York Times Annotated Corpus (NYT)
+- XSum",no,"The predicted answer lists CNN/DailyMail, NYT, and XSum, which are different datasets from SemEval-2016 Task 5. The answers refer to entirely different evaluation datasets.",no,
+1912.01214_q0,C-HGC-RAG,which multilingual approaches do they compare with?,BIBREF19 BIBREF20,"They compare their cross-lingual pre-training based transfer approach with the following multilingual approaches:
+
+- Pivoting (translating source to pivot then to target in two steps)
+- Multilingual NMT (MNMT) [BIBREF19]
+- Cross-lingual transfer without pretraining [BIBREF16]
+
+Additionally, they mention comparisons with pivoting$_{\rm m}$ (which uses MNMT for pivoting) and the original supervised Transformer.",no,"The predicted answer lists more approaches than the correct answer, including pivoting and cross-lingual transfer without pretraining, which are not in the correct answer. Only BIBREF19 and BIBREF20 are correct.",no,
+1712.05608_q0,AC-RAG,Which models/frameworks do they compare to?,MLP,"Based on the provided passages, the models/frameworks that they compare to are:
+
+- MLP (Multilayer Perceptron): Used as the base classifier and as a comparison baseline for the proposed s2sL approach in both balanced and imbalanced data scenarios. ([docid=qasper_1712.05608_sec_3], [docid=qasper_1712.05608_sec_5])
+- Eusboost: A state-of-the-art method for imbalanced data classification, used for comparison in the Anger/Happy emotion classification task. ([docid=qasper_1712.05608_sec_5])
+- MWMOTE: Another state-of-the-art method for imbalanced data classification, also used for comparison in the Anger/Happy emotion classification task. ([docid=qasper_1712.05608_sec_5])
+
+Therefore, the models/frameworks they compare to are MLP, Eusboost, and MWMOTE.",no,"The correct answer lists only MLP, while the predicted answer includes MLP, Eusboost, and MWMOTE. The predicted answer adds models not present in the correct answer, so they are not semantically equivalent.",no,
+1909.06200_q4,AC-RAG,"Who judged the irony accuracy, sentiment preservation and content preservation?",Irony accuracy is judged only by human ; senriment preservation and content preservation are judged  both by human and using automatic metrics (ACC and BLEU).,"Four annotators who are proficient in English judged the irony accuracy, sentiment preservation, and content preservation.",no,"The predicted answer only mentions human annotators, omitting the use of automatic metrics (ACC and BLEU) for sentiment and content preservation, which is specified in the correct answer.",no,
+1906.01081_q1,AC-RAG,How many people participated in their evaluation study of table-to-text models?,about 500,Around 500 different workers were involved in the annotation.,yes,"Both answers state that about/around 500 people participated in the evaluation study, referring to the annotators involved.",yes,
+1810.12085_q2,C-HGC-RAG,what datasets were used?,MIMIC-III,"The dataset used was MIMIC-III, a freely available, deidentified database containing electronic health records of patients admitted to an Intensive Care Unit (ICU) at Beth Israel Deaconess Medical Center between 2001 and 2012. Specifically, the analyses focused on the discharge summaries and associated notes from this database.",yes,"Both answers state that MIMIC-III was used. The predicted answer adds details about the database and specific notes analyzed, but does not change the dataset used.",yes,
+1910.03634_q4,AC-RAG,How big is English poem description of the painting dataset?,UNANSWERABLE,I don't know.,yes,"Both answers indicate that the size of the dataset is unknown or cannot be answered, making them semantically equivalent.",yes,
+1808.03738_q1,C-HGC-RAG,Where does the ancient Chinese dataset come from?,ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that era,The ancient Chinese dataset comes from ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that era. These sources were collected from the internet.,yes,"The predicted answer conveys the same sources as the correct answer, only adding that they were collected from the internet, which does not change the core meaning.",yes,
+1909.00175_q0,HGC-RAG,What state-of-the-art results are achieved?,"F1 score of 92.19 on homographic pun detection, 80.19 on homographic pun location, 89.76 on heterographic pun detection.","Our model with the INLINEFORM0 tagging scheme yields new state-of-the-art INLINEFORM1 scores on pun detection and competitive results on pun location, compared to baselines that do not adopt joint learning in the first block. Compared to CRF, our model, either with the INLINEFORM2 or the INLINEFORM3 scheme, yields significantly higher recall on both detection and location tasks, while the precisions are relatively close. This demonstrates the effectiveness of BiLSTM, which learns the contextual features of given texts and helps recall more puns.
+
+Compared to the INLINEFORM0 scheme, the INLINEFORM1 tagging scheme is able to yield better performance on both pun detection and location tasks. The results for this approach are significantly better than the approach based on the INLINEFORM6 tagging scheme, as observed from the table.
+
+In summary, the model achieves new state-of-the-art scores on pun detection and competitive results on pun location, with significantly higher recall than previous CRF-based baselines.",no,"The predicted answer does not specify the actual state-of-the-art scores (F1 values) achieved, only describes qualitative improvements and comparisons. The correct answer provides exact quantitative results.",no,
+1801.06482_q0,HGC-RAG,What were their performance results?,best model achieves 0.94 F1 score for Wikipedia and Twitter datasets and 0.95 F1 on Formspring dataset,"Based on the passages provided, here are the performance results reported:
+
+- **DNN Models vs. Traditional Models:**  
+  All DNN models (CNN, LSTM, BLSTM, BLSTM with attention) significantly outperformed traditional machine learning models (logistic regression, SVM, random forest, naive Bayes) for cyberbullying detection.
+
+- **Effect of Oversampling:**  
+  Oversampling the minority bullying class (replicating bullying posts three times) significantly improved the performance of all DNN models across all datasets, especially for the smallest dataset (Formspring).
+
+- **Effect of Word Embeddings:**  
+  The choice of initial word embeddings (random, GloVe, SSWE) did not have a significant effect on performance when oversampling was used.
+
+- **Transfer Learning Results:**  
+  - **Complete Transfer Learning (TL1):** Directly using a model trained on one dataset for another resulted in low recall but relatively higher precision. For example, using Wikipedia as the base model for Formspring gave precision = 0.51 and recall = 0.66; using Twitter as the base model for Formspring gave precision = 0.38 and recall = 0.04.
+  - **Feature Level Transfer Learning (TL2):** Transferring only learned word embeddings led to dramatic improvements in recall and significant improvements in precision compared to TL1.
+  - **Model Level Transfer Learning (TL3):** Transferring both word embeddings and network weights did not significantly improve over TL2, indicating that learned word embeddings are the key transferable knowledge.
+
+- **Best Results Achieved:**  
+  Using BLSTM with attention and feature level transfer learning (TL2), the following F1 scores were achieved:
+  - **Wikipedia:** F1 score = 0.94 (previous best was 0.68)
+  - **Twitter:** F1 score = 0.94 (previous best was 0.93)
+  - **Formspring:** F1 score = 0.95 with accuracy = 98% (previously reported accuracy was 78.5%; F1 score not previously reported)
+
+**Summary Table of Best Results:**
+
+| Dataset    | Previous Best F1 | This Work F1 | This Work Accuracy |
+|------------|------------------|--------------|-------------------|
+| Wikipedia  | 0.68             | 0.94         | -                 |
+| Twitter    | 0.93             | 0.94         | -                 |
+| Formspring | - (accuracy 78.5%)| 0.95         | 98%               |
+
+**Other Observations:**
+- The performance gap between the simplest (CNN) and most complex (BLSTM with attention) DNN models reduces as dataset size increases.
+- LSTM generally performed weaker than the other DNN models.
+
+**Conclusion:**  
+DNN-based models, especially BLSTM with attention and feature-level transfer learning, achieved state-of-the-art results for cyberbullying detection across multiple datasets, with F1 scores of 0.94–0.95 and significant improvements over previous methods. Oversampling and transfer of learned word embeddings were key factors in this performance.",yes,"The predicted answer includes the key F1 scores (0.94 for Wikipedia and Twitter, 0.95 for Formspring) and matches the correct answer's main performance results, despite additional details.",yes,
+1903.07406_q2,HGC-RAG,What features are used?,UNANSWERABLE,The features used are TF-IDF features extracted from the text content of pathology reports.,no,"The correct answer states the information is unanswerable, while the predicted answer provides specific features, implying the information is available. They are not semantically equivalent.",no,
+1701.05574_q2,HGC-RAG,What kind of stylistic features are obtained?,UNANSWERABLE,"The passages do not mention any stylistic features being obtained. The features described include lexical features, implicit and explicit incongruity features, readability, word count, and cognitive features derived from eye-movement data (such as fixations, saccades, skips, regressions, and features from saliency graphs). Stylistic features are not specifically discussed.
+
+Final answer: I don't know.",yes,"Both answers indicate that stylistic features are not mentioned or obtained. The predicted answer elaborates on what features are described, but ultimately conveys the same information as 'UNANSWERABLE'.",yes,
+1910.05603_q2,C-HGC-RAG,What is the language model combination technique used in the paper?,system combination on the decoding lattice level combination weights,"The language model combination technique used in the paper involves training multiple n-gram language models optimized for different domains and then combining them based on perplexity calculated on a small text of the target domain. In decoding, system combination is performed at the decoding lattice level, where different language models (such as a general language model and a conversation language model) are combined with specific weights to optimize performance for the test set. For example, the best results were achieved by assigning weights of 0.6:0.4 (general:conversation) for one test set and 0.7:0.3 for another. This approach allows the system to leverage the strengths of each domain-specific language model to reduce word error rate (WER).
+
+(Source: [docid=qasper_1910.05603_sec_3], [docid=qasper_1910.05603_sec_9], [docid=qasper_1910.05603_sec_10])",yes,"The predicted answer describes system combination at the decoding lattice level with combination weights, matching the correct answer's core technique, though with more detail.",yes,
+1908.05828_q4,HGC-RAG,Which machine learning models do they explore?,BiLSTM BiLSTM-CNN BiLSTM-CRF BiLSTM-CNN-CRF,"The passages indicate that the following machine learning models are explored:
+
+- Support Vector Machine (SVM)
+- Hidden Markov Model (HMM)
+- Convolutional Neural Network (CNN)
+- Recurrent Neural Network (RNN)
+- Long Short-Term Memory (LSTM)
+- Gated Recurrent Unit (GRU)
+- Bidirectional LSTM (BiLSTM)
+- BiLSTM+CNN
+- BiLSTM+CRF
+- BiLSTM+CNN+CRF
+- Stanford CRF model
+
+These models are compared and evaluated for the Nepali Named Entity Recognition (NER) task.",no,"The predicted answer lists many models not in the correct answer, including SVM, HMM, CNN, RNN, LSTM, GRU, and Stanford CRF. The correct answer only includes BiLSTM, BiLSTM-CNN, BiLSTM-CRF, and BiLSTM-CNN-CRF.",no,
+1701.05574_q2,C-AC-RAG,What kind of stylistic features are obtained?,UNANSWERABLE,"The passages do not mention ""stylistic features"" specifically. They describe features used for sarcasm detection, such as lexical features, implicit and explicit incongruity features, readability, word count, and cognitive features derived from eye-movement data (like fixations, saccades, skips, regressions, and features from saliency graphs). However, there is no explicit mention of ""stylistic features"" or what kind of stylistic features are obtained.
+
+Final answer: I don't know.",yes,"Both answers state that the passages do not mention stylistic features or what kind are obtained, making them semantically equivalent.",yes,
+1601.02403_q0,AC-RAG,Do they report results only on English data?,yes,I don't know.,no,"'I don't know' does not confirm that results are only reported on English data, while 'yes' does. The answers are not semantically equivalent.",no,
+1611.03599_q4,C-AC-RAG,Did they collected the two datasets?,no,"Based on the provided passages, the answer is:
+
+No, they did not collect both datasets themselves. The FBFans dataset is described as ""a privately-owned, single-topic, Chinese, unbalanced, social media dataset,"" and the passage states, ""The FBFans dataset contains data from anti-nuclear-power Chinese Facebook fan groups from September 2013 to August 2014..."" This suggests the authors had access to and used this dataset, but it does not explicitly state that they collected it themselves.
+
+For the CreateDebate dataset, the passage says, ""CreateDebate is a public, multiple-topic, English, balanced, forum dataset,"" and ""The CreateDebate dataset was collected from an English online debate forum discussing four topics..."" This wording (""was collected"") could imply that the authors collected it, but it could also mean they used an existing dataset.
+
+There is no explicit statement in the passages that the authors themselves collected both datasets.
+
+Final answer:  
+I don't know.",no,"The predicted answer says 'I don't know,' while the correct answer is 'no.' 'I don't know' is not semantically equivalent to 'no.'",no,
+1911.07555_q1,HGC-RAG,Is the lexicon the same for all languages?,yes,"Based on the provided passages, the answer is:
+
+I don't know.
+
+The passages describe the use of a lexicon in the proposed LID algorithm and mention that ""the lexicon is built over all the data and therefore includes the vocabulary from both the training and testing sets"" ([docid=qasper_1911.07555_sec_2]). However, they do not explicitly state whether the lexicon is the same for all languages or if there are separate lexicons for each language.",no,"The correct answer is 'yes', but the predicted answer expresses uncertainty and does not affirm that the lexicon is the same for all languages. Thus, they are not semantically equivalent.",no,
+1804.11346_q3,C-AC-RAG,How long are the essays on average?,204 tokens,"The passages do not provide the exact average length of the essays, but they state that most texts range roughly from 150 to 250 tokens.",no,"The correct answer gives a precise average (204 tokens), while the predicted answer only provides a range and says the exact average is not given. They are not semantically equivalent.",no,
+1912.03804_q1,AC-RAG,What conclusions do the authors draw from their finding that the emotional appeal of ISIS and Catholic materials are similar?,"both corpuses used words that aim to inspire readers while avoiding fear actual words that lead to these effects are very different in the two contexts our findings indicate that, using proper methods, automated analysis of large bodies of textual data can provide novel insight insight into extremist propaganda",,no,,no,
+1910.08293_q0,C-AC-RAG,How many different characters were in dataset?,"45,821 characters","The dataset contains dialogues from 327 major characters.
+
+(Source: [docid=qasper_1910.08293_sec_10]: ""we collect dialogues from 327 major characters (a subset of the 45,821 characters we have HLA data for) in 38 TV shows..."")",no,"The correct answer refers to the total number of characters in the dataset (45,821), while the predicted answer refers only to the 327 major characters whose dialogues were collected.",no,
+1611.03599_q4,C-HGC-RAG,Did they collected the two datasets?,no,"Based on the provided passages, the authors did not collect both datasets themselves. Specifically:
+
+- The FBFans dataset is described as ""a privately-owned, single-topic, Chinese, unbalanced, social media dataset."" The passage states, ""The FBFans dataset contains data from anti-nuclear-power Chinese Facebook fan groups from September 2013 to August 2014..."" but does not explicitly say the authors collected it themselves, only that it is privately owned.
+- The CreateDebate dataset is described as ""a public, multiple-topic, English, balanced, forum dataset."" The passage says, ""The CreateDebate dataset was collected from an English online debate forum..."" but does not specify who collected it.
+
+There is no explicit statement in the passages that the authors themselves collected either dataset.
+
+Final answer: I don't know.",no,"The predicted answer expresses uncertainty ('I don't know'), while the correct answer is definitive ('no'). They are not semantically equivalent.",no,
+1806.11432_q0,HGC-RAG,What are the user-defined keywords?,Words that a user wants them to appear in the generated output.,"The user-defined keywords are words specified by the user that they desire to be included in the generated output. For example, the keywords could be ""subway"" and ""manhattan"". 
+
+(Source: [docid=qasper_1806.11432_sec_5])",yes,"Both answers state that user-defined keywords are words chosen by the user to appear in the generated output. The predicted answer adds an example, but the core meaning is the same.",yes,
+1908.11047_q2,C-HGC-RAG,What are the black-box probes used?,"CCG Supertagging CCGBank , PTB part-of-speech tagging, EWT part-of-speech tagging,
+Chunking, Named Entity Recognition, Semantic Tagging, Grammar Error Detection, Preposition Supersense Role, Preposition Supersense Function, Event Factuality Detection","The black-box probes used include:
+
+- CCG supertagging
+- Part-of-speech tagging from PTB and EWT (Universal Dependencies)
+- Named entity recognition
+- Base-phrase chunking
+- Grammar error detection
+- Semantic tagging
+- Preposition supersense identification
+- Event factuality detection
+
+(Metrics and references for each are summarized in Table TABREF27.)",yes,"The predicted answer lists all the same probes as the correct answer, using slightly different wording but covering CCG supertagging, POS tagging (PTB/EWT), chunking, NER, semantic tagging, grammar error detection, preposition supersense, and event factuality.",yes,
+1806.11432_q3,AC-RAG,What is the size of the Airbnb?,"roughly 40,000 Manhattan listings",I don't know.,no,"The predicted answer does not provide the specific information about Airbnb's size (40,000 Manhattan listings) and instead indicates a lack of knowledge.",no,
+1908.11047_q2,C-AC-RAG,What are the black-box probes used?,"CCG Supertagging CCGBank , PTB part-of-speech tagging, EWT part-of-speech tagging,
+Chunking, Named Entity Recognition, Semantic Tagging, Grammar Error Detection, Preposition Supersense Role, Preposition Supersense Function, Event Factuality Detection","The black-box probes used include:
+
+- CCG supertagging
+- Part-of-speech tagging from PTB and EWT (Universal Dependencies)
+- Named entity recognition
+- Base-phrase chunking
+- Grammar error detection
+- Semantic tagging
+- Preposition supersense identification
+- Event factuality detection
+
+(Metrics and references for each are summarized in Table TABREF27.)",yes,"The predicted answer lists all the same probes as the correct answer, using slightly different wording but covering CCG supertagging, POS tagging (PTB/EWT), chunking, NER, semantic tagging, grammar error detection, preposition supersense, and event factuality.",yes,
+1712.05608_q0,C-AC-RAG,Which models/frameworks do they compare to?,MLP,"Based on the provided passages, the models/frameworks that they compare to are:
+
+- MLP (Multilayer Perceptron): The most commonly used feed forward neural network, used as a baseline classifier.
+- Eusboost: A state-of-the-art method for imbalanced data classification.
+- MWMOTE: Another state-of-the-art technique for imbalanced data set learning.
+
+These comparisons are made for tasks such as Speech/Music discrimination and emotion classification (including imbalanced data scenarios).
+
+References:
+- [docid=qasper_1712.05608_sec_5]: ""Table TABREF14 show the results obtained for proposed s2sL approach in comparison to that of MLP for the tasks of Speech/Music and Neutral/Sad classification... state-of-the-art methods i.e., Eusboost [22] and MWMOTE [23] are also considered for comparison.""
+- [docid=qasper_1712.05608_sec_3]: ""MLP, the most commonly used feed forward neural network, is considered as the base classifier to validate our proposed s2s framework.""",no,"The correct answer lists only MLP, while the predicted answer includes additional models (Eusboost, MWMOTE). Thus, the predicted answer is not semantically equivalent.",no,
+1904.10503_q0,HGC-RAG,Which other approaches do they compare their model with?,"Akbik et al. (2018), Link et al. (2012)","Based on the passages, the model is compared with existing systems for fine-grained named entity classification, including:
+
+- Ling et al. (ling2012fine): Used 112 overlapping labels with a linear classifier perceptron for multi-label classification.
+- Yosef et al. (spaniol2012hyena): Used multiple binary SVM classifiers to assign entities to a set of 505 types.
+- Gillick et al. (gillick2014context): Introduced context dependent FgNER and proposed heuristics for pruning labels.
+- Yogatama et al. (yogatama2015embedding): Proposed an embedding based model for information sharing among labels.
+- Shimaoka et al. (shimaoka2016attentive): Proposed an attentive neural network model using LSTMs and attention mechanisms.
+
+Additionally, the model is compared on the Wiki(gold) dataset with existing systems, but specific names of those systems are not provided in the passages.
+
+Therefore, the approaches compared include the above-mentioned models for fine-grained named entity recognition.",no,"The predicted answer lists different models (Ling et al., Yosef et al., Gillick et al., Yogatama et al., Shimaoka et al.) than the correct answer (Akbik et al., Link et al.), so they are not semantically equivalent.",no,
+1910.14537_q1,C-AC-RAG,How does Gaussian-masked directional multi-head attention works?,pays attentions to adjacent characters and casts a localness relationship between the characters as a fixed Gaussian weight assuming the weight relies on the distance between characters,"Gaussian-masked directional multi-head attention works as follows:
+
+- **Base Mechanism**: It is a variant of the standard scaled dot-product attention used in Transformers. In standard attention, the relationship between queries and keys is computed without considering their positions or distances in the sequence.
+
+- **Gaussian Mask**: Gaussian-masked attention introduces a Gaussian weight matrix $G$, where each element $g_{ij}$ represents the weight between character $i$ and $j$ based on their distance. The weight is highest (1) when the distance is zero and decreases as the distance increases, following a Gaussian distribution. This means adjacent characters have higher influence on each other.
+
+- **Directional Mask**: To capture directionality (forward and backward context), triangular masks are applied to the attention scores, so the model can focus on either past or future positions, or both, depending on the encoder (forward, backward, or central).
+
+- **Combining Masks with Attention**: The Gaussian weight matrix $G$ is combined with the standard attention score matrix (from $QK^T$) using the Hadamard (element-wise) product. This ensures that attention between distant characters is reduced, and attention between adjacent characters is emphasized.
+
+- **Multi-Head Structure**: Like standard multi-head attention, the mechanism splits the input into multiple heads, each with its own parameter matrices, to capture information from different representation subspaces.
+
+- **Purpose**: This approach allows the model to explicitly encode localness (importance of adjacent characters) and directional information, which is especially useful for tasks like Chinese Word Segmentation (CWS), where the relationship between adjacent characters is crucial.
+
+In summary, Gaussian-masked directional multi-head attention modifies standard self-attention by applying a Gaussian mask based on character distance and a directional mask, then combines these with multi-head attention to better capture local and directional dependencies in sequences.",yes,"The predicted answer explains that Gaussian-masked attention emphasizes adjacent characters using a Gaussian weight based on distance, and adds directionality, matching the core idea of the correct answer.",yes,
+2002.01664_q0,C-AC-RAG,How was the audio data gathered?,Through the All India Radio new channel where actors read news.,"The audio data was collected and curated from the All India Radio news channel, where an actor reads news for about 5-10 minutes. Data was crawled from 2010 to 2019 to cover many speakers for the dataset.",yes,"Both answers state the audio data was gathered from All India Radio news channel with actors reading news. The predicted answer adds details about duration and time span, but the core method is the same.",yes,
+1911.06118_q0,C-HGC-RAG,What are the qualitative experiments performed on benchmark datasets?,"Spearman correlation values of GM_KL model evaluated on the benchmark word similarity datasets.
+Evaluation results of GM_KL model on the entailment datasets such as entailment pairs dataset created from WordNet, crowdsourced dataset of 79 semantic relations labelled as entailed or not and annotated distributionally similar nouns dataset.","The qualitative experiments performed on benchmark datasets are described in [docid=qasper_1911.06118_sec_4]. Specifically, Table TABREF9 shows qualitative results of the GM_KL model. In these experiments, given a query word and component id, the set of nearest neighbours along with their respective component ids are listed. For example:
+
+- The word 'plane' in its 0th component captures the 'geometry' sense, and its neighbours also reflect this sense; its 1st component captures the 'vehicle' sense, and the corresponding neighbours reflect this.
+- Other words such as 'rock' capture both the 'metal' and 'music' senses.
+- 'Star' captures 'celebrity' and 'astronomical' senses.
+- 'Phone' captures 'telephony' and 'internet' senses.
+
+These qualitative experiments demonstrate that the GM_KL model is able to capture multiple senses of polysemous words, with each component representing a distinct sense and its nearest neighbours reflecting that sense.",no,"The predicted answer describes qualitative analysis of word senses via nearest neighbours, but omits mention of Spearman correlation values and evaluation on entailment datasets, which are key aspects in the correct answer.",no,
+1805.10824_q5,HGC-RAG,What semi-supervised learning is applied?,"first a model is trained on the training set and then this model is used to predict the labels of the silver data This silver data is then simply added to our training set, after which the model is retrained","The semi-supervised learning approach applied in the study involves the following steps:
+
+1. **Creation of Silver Data:** The DISC BIBREF0 corpus, which contains tweets queried by emotion-related words, was used. Since the specific emotion labels were not public, the researchers automatically assigned tweets to emotions by identifying the most frequent emotion-indicative words in the DISC corpus compared to their own scraped tweets. Words not clearly indicating an emotion were removed, and the remaining words were annotated per emotion. Tweets containing these annotated emotion-words were assigned to the corresponding emotion, creating ""silver"" datasets per emotion.
+
+2. **Model Training and Label Prediction:** A model was first trained on the available labeled training set. This model was then used to predict labels for the silver data.
+
+3. **Quality Control:** To ensure the quality of the silver data, instead of using a single model, ten different models were trained to predict the labels of the silver instances. If the difference between the highest and lowest prediction for a silver instance did not exceed a certain threshold, the instance was kept; otherwise, it was discarded.
+
+4. **Augmenting Training Data:** The selected silver data was added to the original training set, and the model was retrained on this augmented dataset.
+
+5. **Parameter Optimization:** Two parameters were optimized: the threshold for prediction agreement and the number of silver instances to add.
+
+This semi-supervised method was applied to both LSTM and feed-forward neural networks and was only applicable to the emotion intensity (EI) tasks, as only emotions were annotated in the silver data.
+
+**Summary:**  
+The semi-supervised learning applied involved automatically labeling additional tweets using emotion-indicative words, filtering these ""silver"" instances for quality using model agreement, and then augmenting the training data with these instances to retrain the models.",yes,"The predicted answer describes the same semi-supervised approach: training on labeled data, predicting silver data labels, filtering, augmenting the training set, and retraining. It adds detail but matches the core process.",yes,
+1610.09225_q1,C-HGC-RAG,What is the dimension of the embeddings?,300,The dimension of the embeddings is 300.,yes,Both answers state that the embedding dimension is 300; the predicted answer just adds explanatory text but is semantically equivalent.,yes,
+1707.03569_q1,C-AC-RAG,By how much did they improve?,They decrease MAE in 0.34,I don't know.,no,"The correct answer provides a specific improvement (MAE decreased by 0.34), while the predicted answer expresses lack of knowledge and gives no information about the improvement.",no,
+1605.03481_q3,C-HGC-RAG,What other tasks do they test their method on?,None,I don't know.,no,"'I don't know' indicates uncertainty, while 'None' asserts that no other tasks were tested. The predicted answer does not confirm the correct answer's information.",no,
+1912.01214_q0,AC-RAG,which multilingual approaches do they compare with?,BIBREF19 BIBREF20,"They compare their cross-lingual pre-training based transfer approach with the following multilingual approaches:
+
+- Pivoting (translating source to pivot then to target in two steps)
+- Multilingual NMT (MNMT) [BIBREF19]
+- Cross-lingual transfer without pretraining [BIBREF16]
+
+Additionally, they mention comparisons with pivoting$_{\rm m}$ (which uses MNMT for pivoting) and the original supervised Transformer.",no,"The predicted answer lists more approaches than the correct answer, including pivoting and cross-lingual transfer without pretraining, which are not in the correct answer. Only BIBREF19 and BIBREF20 are correct.",no,
+1910.14537_q2,AC-RAG,What is meant by closed test setting?,"closed test limits all the data for learning should not be beyond the given training set, while open test does not take this limitation","Closed test setting refers to an evaluation scenario where models are only allowed to use the given training dataset and are not permitted to use any external resources, such as pre-trained embeddings or language models. In the closed test setting, all features and resources must be derived from the provided data, ensuring a fair comparison between models based solely on the information available in the training set.
+
+(Source: [docid=qasper_1910.14537_sec_10])",yes,"Both answers state that in a closed test setting, only the provided training data can be used for learning, and no external resources are allowed. The predicted answer elaborates but matches the core meaning.",yes,
+1707.03569_q2,C-HGC-RAG,What dataset did they use?,high-quality datasets  from SemEval-2016 “Sentiment Analysis in Twitter” task,They used the high-quality datasets released by the organizers of the SemEval-2016 “Sentiment Analysis in Twitter” task for both ternary and fine-grained sentiment classification.,yes,"Both answers specify the dataset as the high-quality datasets from SemEval-2016 'Sentiment Analysis in Twitter' task. The predicted answer adds detail about classification types, but the core information matches.",yes,
+1703.07476_q0,AC-RAG,What datasets are used to assess the performance of the system?,Switchboard Telephone Speech Corpus BIBREF21 LORELEI (Low Resource Languages for Emergent Incidents) Program,"The datasets used to assess the performance of the system are:
+
+1. **Switchboard Telephone Speech Corpus**: Used for single-label topic classification experiments. It consists of two-sided telephone conversations, with development (dev) and evaluation (eval) data sets. The dev data has 360 conversation sides across six topics, and the eval data has 600 conversation sides across another six topics.
+
+2. **DARPA LORELEI Speech Corpora**: Used for multi-label topic identification. The corpora include speech data from three languages: Turkish, Uzbek, and Mandarin. Each corpus contains in-domain and out-of-domain speech segments, with in-domain segments labeled with 11 situation types and out-of-domain as a 12th topic.
+
+These datasets are used to evaluate the performance of UTD, AUD, and ASR-based systems for topic identification on speech.",yes,"The predicted answer correctly identifies Switchboard and LORELEI as the datasets used, providing additional detail but no contradiction or omission of required datasets.",yes,
+1908.05828_q10,C-AC-RAG,What is the performance improvement of the grapheme-level representation model over the character-level model?,"On OurNepali test dataset Grapheme-level representation model achieves average 0.16% improvement, on ILPRL test dataset it achieves maximum 1.62% improvement","Based on the provided passages, the BiLSTM+CNN(grapheme-level) model performs on par with the BiLSTM+CNN(character-level) model under the same configuration. There is no reported performance improvement of the grapheme-level representation model over the character-level model; their scores are similar.
+
+Therefore, the answer is:  
+There is no performance improvement; the grapheme-level representation model performs on par with the character-level model.",no,"The correct answer states there is a small improvement (up to 1.62%), while the predicted answer claims there is no improvement. These are not semantically equivalent.",no,
+2002.02070_q3,C-AC-RAG,How big is dataset of car-speak language?,"$3,209$ reviews","The dataset contains 3,209 reviews about 553 different cars from 49 different car manufacturers.",yes,"Both answers state the dataset size as 3,209 reviews. The predicted answer adds extra details, but the core information matches the correct answer.",yes,
+1909.00015_q0,AC-RAG,What tasks are used for evaluation?,"four machine translation tasks: German -> English, Japanese -> English, Romanian -> English, English -> German","The tasks used for evaluation are WMT 2014 English → German (en→de), Romanian → English (ro→en), German → English (de→en), and Japanese → English (ja→en) translation tasks.",yes,"Both answers list the same four machine translation tasks: German→English, Japanese→English, Romanian→English, and English→German. The predicted answer specifies WMT 2014 for en→de, but this does not change the semantic equivalence.",yes,
+1910.09982_q1,AC-RAG,What dataset was used?,news articles in free-text format,"The dataset used was the Daily Mail news articles released by BIBREF9, which is composed of 219,506 articles covering a diverse range of topics including business, sports, travel, etc.",yes,"Both answers state that the dataset consists of news articles in free-text format. The predicted answer adds details about the source and topics, but does not change the core meaning.",yes,
+1909.00105_q4,HGC-RAG,How did they obtain the interactions?,from Food.com,"They obtained the interactions by scraping user-recipe interactions (reviews) from Food.com, covering a period of 18 years (January 2000 to December 2018).",yes,"Both answers state that the interactions were obtained from Food.com. The predicted answer adds detail about scraping reviews and the time period, but the core information is the same.",yes,
+1810.12196_q1,AC-RAG,What baselines are presented?,Logistic regression LSTM End-to-end memory networks Deep projective reader,"The baselines presented are:
+- Simple LSTM network
+- MemN2N
+- Logistic regression
+- Deep projective reader",yes,"Both answers list the same baselines: logistic regression, LSTM, memory networks (MemN2N), and deep projective reader. Minor naming differences do not affect semantic equivalence.",yes,
+1712.00991_q5,C-HGC-RAG,What is the average length of the sentences?,15.5,The average length of the sentences is 15.5 words.,yes,"Both answers state the average sentence length as 15.5. The predicted answer adds context ('words'), but the core information is semantically equivalent.",yes,
+1811.08603_q3,C-AC-RAG,Do they only use adjacent entity mentions or use more than that in some cases (next to adjacent)?,NCEL considers only adjacent mentions.,"Based on the passages, the method primarily uses adjacent mentions (neighbor mentions within a pre-defined window size) to support the topical coherence assumption efficiently. However, it is stated that:
+
+> ""A degraded case happens if [the window size] is large enough to cover the entire document, and the mentions used for global features become the same as the previous work...""
+
+This means that while the default and efficient approach is to use only adjacent mentions, it is possible (though less efficient) to use a larger window that includes more than just adjacent mentions—even up to all mentions in the document. In practice, they heuristically choose a window size much smaller than the total number of mentions for efficiency.
+
+**Therefore, they can use more than just adjacent mentions (including next-to-adjacent and beyond) in some cases, depending on the window size, but typically use only adjacent mentions for efficiency.**",no,"The correct answer states NCEL only uses adjacent mentions, while the predicted answer explains that NCEL can use more than adjacent mentions depending on window size, so they are not semantically equivalent.",no,
+1908.06267_q2,C-AC-RAG,What is the state-of-the-art system?,doc2vec  CNN DAN Tree-LSTM DRNN LSTMN C-LSTM SPGK WMD S-WMD Semantic-CNN LSTM-GRNN HN-ATT,"The passages do not specify a single state-of-the-art system by name. They mention that MPAD (Message Passing Attention network for Document understanding) is ""competitive with the state-of-the-art"" and that it is evaluated against multiple state-of-the-art baseline models, but they do not state which system is the current state-of-the-art.
+
+**Answer:** I don't know.",no,"The correct answer lists specific state-of-the-art systems, while the predicted answer says the passages do not specify any by name. The answers are not semantically equivalent.",no,
+1901.10133_q2,C-AC-RAG,Do they release a data set?,no,I don't know.,no,"'I don't know' indicates uncertainty, while 'no' is a definite answer. The predicted answer does not confirm the absence of a data set, so they are not semantically equivalent.",no,

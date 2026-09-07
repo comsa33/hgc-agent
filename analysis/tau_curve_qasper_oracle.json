@@ -1,0 +1,64 @@
+{
+  "cell": "qasper-oracle",
+  "observed_hits_in_run": 72,
+  "predicted_hits_at_085": 73,
+  "matches_run": true,
+  "boundary_queries_at_085": [
+    {
+      "query_id": "1908.04042_q0",
+      "best_sim": 0.8499791622161865
+    }
+  ],
+  "n_seeded": 114,
+  "n_queries": 200,
+  "best_sim_min": 0.30450499057769775,
+  "best_sim_median": 0.7947700023651123,
+  "best_sim_max": 0.9621672630310059,
+  "curve": [
+    {
+      "tau": 0.7,
+      "hits": 125,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.75,
+      "hits": 118,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.8,
+      "hits": 98,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.825,
+      "hits": 89,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.85,
+      "hits": 73,
+      "same_as_released": true
+    },
+    {
+      "tau": 0.875,
+      "hits": 57,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.9,
+      "hits": 34,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.925,
+      "hits": 22,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.95,
+      "hits": 7,
+      "same_as_released": false
+    }
+  ]
+}

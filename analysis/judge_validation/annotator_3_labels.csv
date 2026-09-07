@@ -1,0 +1,1279 @@
+benchmark,query_id,phase,question,gold_answer,predicted_answer,your_label,justification
+bcp,1034,P3-AC,"What is the original name at birth of the individual described below: 1. A 2022 article notes that this person is a commercial model whose primary source of wealth is show business. 2. As of 2021, they were born into a family with three children, gained prominence in their field between 2006 and 2010, and have a child born in the United States. 3. A 2020 article reports that they attended university from 2001 to 2007, majoring in Business Administration, and launched a music career with their first single released between 2010 and 2015. 4. The same 2020 article mentions they were employed as a coordinator in 2012 and subsequently advanced to a manager position.",Nicholas Munene Mutuma,Nicholas Munene Mutuma,yes,
+bcp,416,P4-AC,"Restate the third individual listed in the acknowledgments section of the final paper, given the following: Between 2010 and 2020, a group of authors (more than three) published research in a plant science journal about using data-driven algorithms to analyze plant phenotypic and biochemical data under environmental stress. The lead author, recognized with an award in agricultural research and having held postdoctoral positions at two institutions, contributed to this work. Another author attended a three-day academic retreat at a Nebraska lodge, which was attended by representatives from four to six public universities. Later, these authors, along with two additional collaborators, produced another study on plant disease detection using a neural network applied to spectral imaging data. All authors were from different departments within one university. That same year, the group jointly authored a subsequent paper addressing early detection of plant diseases by combining the same spectral imaging method with supervised machine learning and a search algorithm. What is the name of the third person thanked in the acknowledgments of this most recent publication?",Hsiang Sing Naik,The name of the third individual thanked in the acknowledgments section of the most recent publication cannot be determined from the available document content.,no,
+bcp,119,P3-Hybrid,"During the 3rd century BC, a device was created and utilized in the tunnels and animal enclosures below the Colosseum for gladiatorial combat. By the 1850s, a steam-powered version for passengers was developed, and the first electrically-operated model emerged in the 1880s. This apparatus, which transports people and cargo between floors, is referred to by different terms in American and British English. Based on a 2010s article discussing incidents involving this device, what is the name of the individual whose brother or sister was severely injured by this machine on Thanksgiving, resulting in a life-altering injury?",Josh,Josh,yes,
+bcp,1045,P3-AC,"What is the full name of the author who, while serving as both a researcher and assistant professor at a school covered by a particular news organization—and also holding the position of editor-in-chief—had two books published in the same year? One of these books and the author were featured in an article by that news outlet, and the author also wrote an article for a daily literary news website that was established eight years prior to publishing the author's piece.",Aaron Trammell,Aaron Trammell,yes,
+bcp,675,P3-Hybrid,"Which former professional athlete, who adopted a vegan diet several years prior to 2022, co-founded a company in the same year that the world’s first wind-turbine-integrated building was finished—this company, a key player in reducing CO2 emissions for a healthier planet, also secured its initial funding round in 2022? Please provide the athlete’s full name.",Mathieu Flamini,Mathieu Flamini,yes,
+bcp,631,P4-AC,"Based on the annual report and financial statement for the year ending December 31, 2022, what net loss did the West African company—whose managing director was appointed in the late 1990s and first worked in advertising at a firm founded by someone whose initial job in Europe involved preparing dog meals in a hotel kitchen—report?",GHS 41.6 million,"Fan Milk PLC reported a net loss after tax of GH¢41,596,000 for the year ended December 31, 2022.",yes,
+bcp,632,P4-Hybrid,"State the country and month of birth for a particular person using the following clues:  1. This person secured back-to-back victories in a freestyle competition at some point from 2014 to 2020. 2. They became part of a team between 2018 and 2023, with their contract being renewed the following year. 3. A 2023 article reported that this individual experienced depression beginning in their teenage years. 4. That same article notes the person holds a bachelor’s degree in accounting and that one of their parents is passionate about boxing and wishes for them to pursue boxing. 5. Another article from 2022 mentioned the person earned a degree in sports psychology.  All details are up to date as of 2023.","December, Nigeria",The country and month of birth for the person described in the clues cannot be determined from the available documents.,no,
+bcp,1000,P3-Hybrid,"Who was the Ghanaian physician who traveled to Scotland on the Belgian vessel Copacabana during World War II to pursue medical studies, set up a clinic in Ghana the year following its independence, and was featured in a book authored by an international organization established in 1952 and published in a leap year near the end of the 20th century, before passing away in the early 2000s?",Matthew Arnum Barnor,Matthew Arnum Barnor,yes,
+bcp,1182,P4-AC,"Identify the person who was born prior to 1951 as the youngest of three siblings, had their first marriage in 1969, and started their career with a minor film role. As a teenager, they filmed a part in a movie, but their scene was cut. In one interview, they discussed a project they led, expressing disappointment and a sense that it did not fulfill their hopes. In a separate interview, they spoke about their inability to watch certain major blockbuster movies. Additionally, this individual teamed up with a friend to work on an adaptation of a famous play authored by a notable figure. Based on these clues, who is this person?",Naseeruddin Shah,Aircraft Technology Modeling and Assessment (ASCENT Project 10),no,
+bcp,403,P3-AC,"Can you tell me the name of the facility where someone was treated for a liver issue, as referenced in an October 5 post? The individual in question: was born on their country’s Independence Day, had modest beginnings according to a report published at 10:03 AM ET, won an amateur hour contest before turning 20, was detained but freed after paying a fine, spent time living in Europe during the late 1970s, and passed away before reaching 80 years old.",Sanatorio de la Trinidad,"The facility is only identified as ""a medical clinic in Buenos Aires""; the specific name is not given in the referenced October 5 post.",no,
+bcp,635,P4-Hybrid,"In a book published in May 2001, the author, who served as a trustee for a charitable trust overseeing land purchased in the 2000s by a city council for $2–3 million, emphasizes the importance of identifying and preserving archaeological resources within a conservancy containing around 4,600 sites. A 2012 archaeological report on this location references a prominent landowner and politician who took his own life in 1898. Based on this 2012 publication, what was the total number of hectares he had accumulated in the area by the year of his death?",404,324 hectares,no,
+bcp,896,P3-Hybrid,"Can you provide the full name of a person who was born in the early 1940s in a nation that had its first female prime minister assume office and serve during the 1990s? This individual was adopted, became a partner at a corporate firm but was let go before the 1970s, and subsequently established their own practice around that period. They died between 2010 and 2016, less than a month after being knighted.",Ian Athfield,Ian Athfield,yes,
+bcp,276,P3-Hybrid,"Can you provide the name of the expedition for which an entrepreneur—famous for embellishing stories about a certain region, including its rivers and campsites—was selected before turning twenty? This individual was highlighted in a 2015 magazine article, with the publication’s name containing a word that describes a specific community. Please ensure all details are up to date as of 2023.",Ashley-Henry,"The expedition was the Ashley-Henry (Upper Missouri) Expedition, for which Jim Bridger was selected before turning twenty. He was highlighted in a 2015 article by Frederick J Chiaventone, likely published in ""Wild West Magazine.""",yes,
+bcp,826,P3-AC,"Identify the title of the sole nonfiction book written by a person who meets the following criteria: born between 1930 and 1940; renowned for literary works with magical themes; studied science at a state-run university; served in the armed forces during a major period of turmoil; published a science fiction novel prior to 2020; released their debut novel before 1970, which became a required reading in educational institutions nationally and internationally; was once abducted by unidentified people but freed within hours; and produced only one nonfiction publication throughout their career.",Sunset at Biafra,Sunset in Biafra,yes,
+bcp,1174,P3-AC,"I was examining the OSCAR awards listings from 1980 to 2020, where honors are usually given in several categories. I was pleased to learn that a favorite film of mine received an award in a particular category within that period. That same year, four other films were nominated in this category. I also managed to find the birthplaces of all the directors of the nominated films: Winner Movie: New York Nominated Movie 1: France Nominated Movie 2: Colorado Nominated Movie 3: Illinois Nominated Movie 4: Ohio Of these five films, two had the same individual as both director and writer. One of these two films features an animal in its title, while the other includes a mythological creature in its title. Could you identify the category and the year in which the award was given?","Cinematography, 2012",Unable to definitively identify the category and year based on the available information.,no,
+bcp,154,P4-Hybrid,"A PhD candidate in history authored an essay in 2008 about a conflict from the 1800s. In the acknowledgments, they expressed gratitude to a scholar whose undergraduate and doctoral degrees were earned on separate continents. The essay’s author later finished both their undergraduate and doctoral studies at the same university, and in 2018 and 2019, delivered a total of seven invited academic presentations on the Siege of Leningrad. What is the title of this essay?","Heroes, Cowards, & Traitors: The Crimean War & its Challenge to Russian Autocracy","Heroes, Cowards, & Traitors: The Crimean War & its Challenge to Russian Autocracy",yes,
+bcp,283,P4-Hybrid,"Provide the full name (first and last) of the main character, whose first name begins with ""Z"", from a specific video game that includes a black hole in its storyline, originally launched between 2016 and 2019 (not including those years) for a certain platform, with a subsequent release for additional platforms two years later, and a more advanced edition released three years after the original. The game was both developed and published by a company established in October of a year between 2010 and 2013 (excluding those years). Additionally, one individual who contributed as a freelance concept artist for the original version also worked on a video game released in 2009, while another team member involved in the later versions served as the senior programmer on a different game that was released in February of a year from 2020 to 2023 (inclusive).",Zimri Elder,Zimri Eder,yes,
+bcp,392,P4-AC,"Which name was nearly chosen for the birthplace of a female producer—born in the 1970s in a city established due to the discovery of a chemical element, outside the USA—who produced a 2010s film about a woman struggling with a mysterious illness, and whose parent shot the other in self-defense in the early 1990s, as reported in an article that also states she is an only child?",Bedford,Benjamin,no,
+bcp,1182,P4-Hybrid,"Identify the person who was born prior to 1951 as the youngest of three siblings, had their first marriage in 1969, and started their career with a minor film role. As a teenager, they filmed a part in a movie, but their scene was cut. In one interview, they discussed a project they led, expressing disappointment and a sense that it did not fulfill their hopes. In a separate interview, they spoke about their inability to watch certain major blockbuster movies. Additionally, this individual teamed up with a friend to work on an adaptation of a famous play authored by a notable figure. Based on these clues, who is this person?",Naseeruddin Shah,Naseeruddin Shah,yes,
+bcp,372,P3-AC,"What is the surname of the individual born within the years 1820 to 1830, inclusive, who had a street in a European capital city named after them (at least until 2020), with the street adopting their name two years posthumously? This individual, along with their brother, departed their home for Germany when they were older than 10 but younger than 15. In Germany, they encountered an English author who was awarded the Order of Merit sometime between 1902 and 1907, inclusive. The person also worked as a private tutor in the United States and was friends with someone known for photographing famous people.",Reclus,Reclus,yes,
+bcp,228,P4-Hybrid,"Which university was home, as of 2023, to a building—part of a larger complex—whose construction was funded by a foundational gift from an individual (and their spouse, who as of 2019 had no children together) who founded a company with an online video games division that released a top-grossing game between 2000 and 2010 (a distinction held at least until 2019), and who graduated from a university established between 1930 and 1970, with the building itself scheduled to open between 2018 and 2021 as of 2019?",Stanford University,Stanford University,yes,
+bcp,392,P3-AC,"Which name was nearly chosen for the birthplace of a female producer—born in the 1970s in a city established due to the discovery of a chemical element, outside the USA—who produced a 2010s film about a woman struggling with a mysterious illness, and whose parent shot the other in self-defense in the early 1990s, as reported in an article that also states she is an only child?",Bedford,Benjamin,no,
+bcp,315,P4-Hybrid,"In this specific European football league season before 2023, a football club established in the 1920s registered these results: 37 goals scored, 7 victories, 16 ties, and 15 defeats. Their goal difference was -12, and they conceded fewer than 50 goals overall. What was the total number of minutes played in the league by their player with the second-highest goal tally?","1,944","2,061 minutes",no,
+bcp,645,P4-AC,"Which substance was identified as the most prevalent in the ""Results and Discussion"" section of a 2020 study—authored by Farjon as the primary citation—analyzing, for the first time, the profile of eighteen compounds in the primary defensive layer of a Mediterranean species from a genus distributed mainly in temperate regions of the Northern Hemisphere, where several compounds from a specific tissue have been used to infer evolutionary relationships?",C29,"Nonacosan-10-ol was identified as the most prevalent substance in the ""Results and Discussion"" section of the 2020 study.",yes,
+bcp,180,P4-AC,"Consider a film released sometime from 1950 to 2020 that received an award at a film festival established between 1900 and 1980. During its opening weekend, the film made less than 10% of its eventual total box office revenue. The movie includes an actor who also starred in another movie directed by the same filmmaker, and the role this actor plays in the film features a near-death experience. At one point, this character orders a beverage and is addressed by the server using a particular term. There exists a song titled with this same term, and the album containing this song, released before 2000, has an animal from the Feliformia suborder in its title. Which musical group performed this song?",blink-182,De La Soul,no,
+bcp,501,P4-AC,"What is the title of the article, published between 2018 and 2023 (inclusive) that discusses COVID-19, in which the twenty-second author is listed as being affiliated with a certain U.S. government agency—an agency whose trade delegation visited, between August and November 2023 (inclusive), a country that had an earthquake between 2005 and 2015 (inclusive)—and who is also the first author of a 2019–2023 (inclusive) publication on the spread of a variant of a gut bacterium that is typically harmless but can sometimes cause serious foodborne disease?",Accelerated evolution of SARS-CoV-2 in free-ranging white-tailed deer,Accelerated evolution of SARS-CoV-2 in free-ranging white-tailed deer,yes,
+bcp,925,P3-AC,"What nickname was given to the prominent individual, noted for his eloquence and persuasive abilities, who was mortally injured while attempting to sign a star player in the player’s hometown—a player who ultimately joined the club following the tragic event?",The Lip,"""Motor mouth Nene"" was the nickname given to Ewert Nene, the prominent individual noted for his eloquence and persuasive abilities.",no,
+bcp,843,P3-AC,"More than three years following the launch of a strategy video game, a downloadable content pack was made available. In 2023, a Master's thesis focused on postcolonialism in this game was completed at an American University, supervised by a scholar with two degrees from a university in California who authored a 2020 book on video games. The downloadable content altered base game mechanics related to religion and technology, as well as introduced new features for a particular European nation players can control. What is the complete name of the third person listed as a content designer for this downloadable content?",Mathilda Bjarnehed,Mathilda Bjarnehed,yes,
+bcp,1012,P4-AC,"Within the years 2018 to 2023, a singer-songwriter put out an extended play (EP) where every track title is a single word ending with a question mark. The artist spent more than a year working with their team and expressed that they poured their entire effort into this project. Additionally, the singer-songwriter revealed that the EP’s songs originated as personal journal entries, reflecting their own life experiences. Based on these details, provide the EP’s release date in this format: day, month, year.",22.Sep.23,Tweentrepreneurs,no,
+bcp,1037,P4-AC,"Who is the individual, identified by both first and last name, who satisfies the following criteria as of December 2023: established a professional sports franchise sometime from 1930 to 1970, served as a member of their state’s house of representatives between 1935 and 1955, was born in the early 1900s, and attended the same university as someone who later won an early 21st-century MMA reality competition?",Joseph Robbie,DOI: 10.5812/ijpbs.62774,no,
+bcp,132,P4-AC,"Can you identify the third album released by a band formed in 1966, whose origins trace back to two solo musicians performing a cover song in a nightclub to great acclaim? The group, which debuted with an album that earned them an award between 1966 and 1970, traveled to London after their second album but were denied work permits. Of the two members, one was a singer, songwriter, producer, and magazine editor, while the other had previously played in a band active from 1961 to 1964. Their third album came out in the early 1970s. What is the title of this third album?",World Of The Dream Merchants,The World Of The Dream Merchants,yes,
+bcp,934,P4-Hybrid,"Can you identify the episode in which an actress, who first appeared on stage at 13 and portrayed a heiress in a 1970s TV series created by someone who had won several Edgar awards by December 2010, attempts to persuade a gynaecologist to join her? The actor playing the gynaecologist had been married three times as of December 2023. What is the title of that episode?",Pirouette,Daniel Goleman,no,
+bcp,895,P4-Hybrid,"Given these clues about a political leader: Their initial year in office coincided with a FIFA World Cup tournament. Their final year in office occurred no more than three years after an iconic film was released. It was noted that they habitually napped after lunch. They had a meeting with a U.S. Secretary of State, during which a phrase involving an informal telegraph was mentioned. This meeting happened during the last four years of their leadership. Their tenure lasted under 15 years. They were a parent to three children. A compliment was once given to them by a professional hunter. They passed away on a Saturday. Can you identify this individual and explain their connection to someone whose first name matches that of a classic gin-based cocktail?","Martini, wife","The individual described is Jorge Rafael Videla, the de facto President of Argentina during the 1978 FIFA World Cup. His tenure, habits, family, and historical context match all the clues provided. The connection to someone whose first name matches a classic gin-based cocktail is likely through an associate or contemporary named Tom (Tomás), matching the ""Tom Collins"" cocktail.",no,
+bcp,403,P4-Hybrid,"Can you tell me the name of the facility where someone was treated for a liver issue, as referenced in an October 5 post? The individual in question: was born on their country’s Independence Day, had modest beginnings according to a report published at 10:03 AM ET, won an amateur hour contest before turning 20, was detained but freed after paying a fine, spent time living in Europe during the late 1970s, and passed away before reaching 80 years old.",Sanatorio de la Trinidad,The facility referenced is a medical clinic in Buenos Aires (specific name not provided in the October 5 post).,no,
+bcp,1230,P3-AC,"Who is the individual to whom an MA thesis—submitted between January 2022 and December 2023 in the Department of History at a university that served as a hospital during the American Civil War, and focused on the ways the political, social, and cultural values of the university’s state influenced its slow and restricted embrace of eugenic sterilization—was dedicated, given that the thesis’s primary advisor wrote an acclaimed pre-2015 book on the relationship between computers and biology?",Gertrude Pownall,Gertrude Pownall,yes,
+bcp,1211,P4-AC,"What is the title of the non-English television series, released prior to 2003, featuring an actress whose TV career began in 1995, and created by someone born in 1973 who also served as a writer? Each episode lasts 45 minutes, and the story centers on a young woman who quits her job to support a coworker she cares for, only to find out he is already romantically involved with someone else.",20 tantos,20 tantos,yes,
+bcp,124,P4-AC,"In a 2020 article, an author with the initials KW mentions a children's book series by an Emmy award winner who had previously published a 2018 article on the history of a card game. According to KW, what is the name of this series?",Magic Mommy Stories,"Based on the available information, the name of the children's book series mentioned by KW in a 2020 article cannot be determined with certainty. The only relevant mention is ""The Frog with ASD"" by Karin McCay, but it does not match all the criteria described in the question.",no,
+bcp,12,P3-Hybrid,"In the early 2000s, a manga debuted with its first chapter, authored by a team who had all attended the same primary school and only adopted their collective moniker after the chapter's release. The story incorporates aspects from an iconic 19th-century work penned by a novelist with a passion for other artistic mediums. The central motif of the manga is the pursuit of flawlessness. Within the story, one initially antagonistic character has an ally whose name references omitting some parts of a particular device. What is the name of this initially antagonistic character, and how many distinct-effect movements have they employed?",Kanaria; seven,Suigintou; 3,no,
+bcp,666,P4-Hybrid,"Rewritten Question:  
+A person who had their first child between the ages of 22 and 24, inclusive, was working on their second novel until September 2023. This person also mentioned that a work authored by someone who admired Mark Twain deeply resonated with them. Additionally, this individual, whose eldest child was born when they were between 22 and 24 years old, collaborated with someone who, prior to 2010, claimed that architecture was the only profession—apart from their well-known career—that interested them. As of 2023, what is the complete name of the individual whose first child was born when they were between 22 and 24 years old, inclusive?",Michael Caine,Michael Caine,yes,
+bcp,493,P3-Hybrid,"Based on these clues, all accurate as of December 31, 2023, name the athlete:  
+1. Over their career, this individual was teammates with a player whose father netted 33 goals for the same club.  
+2. The athlete participated in 11 matches at a major tournament, averaging 0.55 goals per game.  
+3. Between 2010 and 2020, the player secured a professional league championship.  
+4. In the same year they scored 6 goals for their national team, they also appeared on a single.  
+5. The athlete only made one appearance for their country at a particular major international sporting event.",Asamoah Gyan,Asamoah Gyan,yes,
+bcp,787,P3-AC,"What is the complete birth name of the musician and performer who fits these clues:  
+1. They hail from a nation that was previously colonized by a European power and achieved independence before the year 2000.  
+2. Their debut EP was released in the same year a prominent world leader marked the first Sapphire Jubilee celebration.  
+3. Their first studio album was released sometime between 2017 and 2023.  
+4. Prior to 2023, media coverage referred to them as someone who has been a leading figure in challenging industry norms.  
+5. They are known for their multilingual lyrics and, in an interview, discussed openly expressing their thoughts and humanity through their music.  
+6. Their performances have taken place in both the USA and London.  
+7. In 2019, it was highlighted that they were recognized for a distinctive look during performances.",Emmanuel Kwesi Danso Arthur Junior,Emmanuel Kwesi Danso Arthur Junior,yes,
+bcp,786,P4-AC,"State the full name (given and family name) of the individual who, as of December 2023, meets these criteria: born in the 1950s to Indian immigrant parents (first and second generation); self-identified as “Perfectly formed”; featured in a 91-minute movie directed by a filmmaker famous for English-made dinosaur, science fiction, and adventure features; and directed a short film alongside their nephew.",Kiran Shah,"Marie of Romania, Queen of Romania (upon her accession as queen consort).",no,
+bcp,12,P4-AC,"In the early 2000s, a manga debuted with its first chapter, authored by a team who had all attended the same primary school and only adopted their collective moniker after the chapter's release. The story incorporates aspects from an iconic 19th-century work penned by a novelist with a passion for other artistic mediums. The central motif of the manga is the pursuit of flawlessness. Within the story, one initially antagonistic character has an ally whose name references omitting some parts of a particular device. What is the name of this initially antagonistic character, and how many distinct-effect movements have they employed?",Kanaria; seven,Clare Wigfall,no,
+bcp,1012,P4-Hybrid,"Within the years 2018 to 2023, a singer-songwriter put out an extended play (EP) where every track title is a single word ending with a question mark. The artist spent more than a year working with their team and expressed that they poured their entire effort into this project. Additionally, the singer-songwriter revealed that the EP’s songs originated as personal journal entries, reflecting their own life experiences. Based on these details, provide the EP’s release date in this format: day, month, year.",22.Sep.23,22.Sep.23,yes,
+bcp,18,P3-Hybrid,"Who is the individual who established a yearly cycling event beginning in 2008, spoke at a forum in 2014, stepped down from a managerial role at a radio station in 2020, and published their final financial advice column in 2023? Please provide their complete name as referenced in these occurrences.",Lillian Karabaic,Nathan Jones,no,
+bcp,1207,P3-AC,"Identify the non-English show, released prior to 2021, that centers on a driven protagonist facing intricate power struggles and unforeseen setbacks resulting from a close associate's error. The main actors posted a picture together on social media and expressed appreciation for one another. The lead actress assumed a significant ambassadorial position for an organization in 2020, while her male co-star previously participated in a music band during his youth. What is the title of this series?",Ramo,Ramo,yes,
+bcp,124,P3-Hybrid,"In a 2020 article, an author with the initials KW mentions a children's book series by an Emmy award winner who had previously published a 2018 article on the history of a card game. According to KW, what is the name of this series?",Magic Mommy Stories,Magic Mommy Stories,yes,
+bcp,416,P4-Hybrid,"Restate the third individual listed in the acknowledgments section of the final paper, given the following: Between 2010 and 2020, a group of authors (more than three) published research in a plant science journal about using data-driven algorithms to analyze plant phenotypic and biochemical data under environmental stress. The lead author, recognized with an award in agricultural research and having held postdoctoral positions at two institutions, contributed to this work. Another author attended a three-day academic retreat at a Nebraska lodge, which was attended by representatives from four to six public universities. Later, these authors, along with two additional collaborators, produced another study on plant disease detection using a neural network applied to spectral imaging data. All authors were from different departments within one university. That same year, the group jointly authored a subsequent paper addressing early detection of plant diseases by combining the same spectral imaging method with supervised machine learning and a search algorithm. What is the name of the third person thanked in the acknowledgments of this most recent publication?",Hsiang Sing Naik,"Unable to determine from the available document snippets. The acknowledgments section of the specified paper has not been reached, so the third individual listed cannot be identified at this time.",no,
+bcp,297,P3-Hybrid,"A fictional character portrayed as a godfather in a film was played by an actor who appeared in a different movie directed by someone who also helmed a film featuring a music producer born in the 1900s. This actor spoke about his acting in a podcast cited in an article, and addressed his divorce during an interview mentioned in a 2023 article. That director’s films were listed in a ranking published on the 20th of a month in 2020. What is the title of the film placed ninth on that list? All factual details are correct as of 2023.",Insomnia,Insomnia (2002),yes,
+bcp,389,P3-AC,"Can you identify the actor, born in the 1970s, who entered a 12-year relationship in 1999 with a fellow 1970s-born actress, was part of a dramatic arts club established in the 1980s, and whose father gained fame from a film released during the 1960s?",Benedict Timothy Carlton Cumberbatch,Benedict Cumberbatch,yes,
+qasper,1909.08970_q0,AC-LC,What was the performance level of the baseline?,accuracy of 30.3% on single sentences and 0.3 on complete paragraphs,"The best baseline model, NO-MOVE, reached an accuracy of 30.3% on single sentences and 0.3 on complete paragraphs.",yes,
+qasper,1503.00841_q1,AC-LC,Which are the three types of regularization terms?,a regularization term associated with neutral features the maximum entropy of class distribution regularization term the KL divergence between reference and predicted class distribution,"The three regularization terms are:
+1. A regularization term associated with neutral features.
+2. The maximum entropy of class distribution regularization term.
+3. The KL divergence between reference and predicted class distribution.",yes,
+qasper,1909.10012_q2,AC-LC,In what ways do the profile modifications differ between prominent leaders and their followers throughout the course of the social movement?,"Influential leaders are more likely to change their profile attributes than their followers; the leaders do not change their usernames, while their followers change their usernames a lot; the leaders  tend to make new changes related to previous attribute values, while the followers make comparatively less related changes to previous attribute values.","Political handles (influential leads) are more likely to engage in profile changing behavior compared to their followers. Profile image and location are the most frequently changed attributes, accounting for nearly 34% and 25% of total profile changes, respectively. Political handles do not change their usernames at all, while many follower handles change their usernames multiple times, likely because most followers are not verified and would not lose verified status by changing usernames. Additionally, political handles tend to make new changes related to previous attribute values, whereas followers make comparatively fewer related changes to previous attribute values.",yes,
+qasper,1903.03530_q3,HGC-LC,What method do they use to choose examples for their hold-out test set?,"1264 instances from simulated data, 1280 instances by adding two out-of-distribution symptoms and 944 instances manually delineated from the symptom checking portions of real-word dialogues",They hold out samples from the simulated data to create their Base Set for the test set.,no,
+qasper,1802.00396_q2,HGC-LC,What is the dataset that they utilize?,corpus of state speeches delivered during the annual UN General Debate,They use a recently released corpus of state speeches delivered during the annual UN General Debate.,yes,
+qasper,1611.03599_q1,C-AC-LC,What is the total number of layers in the UTCNN architecture?,eight layers,I don't know.,no,
+qasper,1908.08345_q2,C-HGC-LC,Which datasets were utilized for assessment?,CNN/DailyMail news highlights New York Times Annotated Corpus XSum,"The datasets utilized for assessment were the CNN/DailyMail news highlights dataset, the New York Times Annotated Corpus (NYT), and XSum.",yes,
+qasper,1707.03569_q1,C-HGC-LC,What was the extent of their improvement?,They decrease MAE in 0.34,I don't know.,no,
+qasper,1903.11437_q5,AC-LC,In which language is the data presented?,English  German French,"The data is presented in English, German, and French.",yes,
+qasper,1810.12196_q4,HGC-LC,What is the source of the hotel reviews?,TripAdvisor,The hotel reviews are from TripAdvisor.,yes,
+qasper,1611.03599_q1,HGC-LC,What is the total number of layers in the UTCNN architecture?,eight layers,I don't know.,no,
+qasper,1908.09246_q0,C-HGC-LC,Are their results limited exclusively to English datasets?,UNANSWERABLE,I don't know.,yes,
+qasper,1809.06537_q0,C-HGC-LC,How did they perform on the dataset they created?,"AutoJudge consistently and significantly outperforms all the baselines RC models achieve better performance than most text classification models (excluding GRU+Attention) Comparing with conventional RC models, AutoJudge achieves significant improvement","AutoJudge consistently and significantly outperformed all the baselines, including RC models and other neural text classification models, on the dataset they created. RC models achieved better performance than most text classification models (excluding GRU+Attention), and models that used attention mechanisms to integrate law articles (such as GRU+Attention and AutoJudge) achieved higher performance than those that simply concatenated law articles with the original text. This demonstrates the effectiveness and robustness of AutoJudge and the importance of using attention mechanisms to capture interactions between multiple inputs.",yes,
+qasper,1611.03599_q1,AC-LC,What is the total number of layers in the UTCNN architecture?,eight layers,I don't know.,no,
+qasper,1901.10133_q2,HGC-LC,Is a data set made available by them?,no,I don't know.,no,
+qasper,1909.06162_q1,C-AC-LC,Which extracted features had the greatest impact on performance?,Linguistic,"The extracted features that had the greatest impact on performance were the pre-trained embeddings, specifically FastText and BERT. The document states that ""the pre-trained embeddings (FastText or BERT) outperform TF-IDF vector representation."" Additionally, augmenting the sentence vector with additional features (such as linguistic, layout, topics, etc.) further improved F1 on the external development set. Fine-tuning BERT and combining it with these features led to further gains in F1 for both internal and external development sets. Thus, the use of pre-trained embeddings (especially BERT) and the augmentation with additional features had the greatest impact on performance.",no,
+qasper,1706.09673_q1,C-AC-LC,Do they test the effectiveness of their learned representations by applying them to downstream tasks?,no,I don't know.,no,
+qasper,1806.00738_q2,C-AC-LC,Does the input include the sequence index?,no,"Yes, the input includes the sequence index, as at every timestep $t$ the network takes as input an image $I_i$ where $i \in \lbrace 1,2,3,4,5\rbrace$ from the sequence.",no,
+qasper,1912.03627_q1,HGC-LC,What method was used to gather the speech?,The speech was collected from respondents using an android application.,"The speech was gathered using crowdsourcing, where each respondent installed an Android application on their personal device and recorded several phrases in different sessions.",yes,
+qasper,1806.04511_q2,C-AC-LC,Which datasets were utilized for the evaluation process?,"SemEval-2016 Challenge Task 5 BIBREF27 , BIBREF28","The datasets used in evaluation were English reviews and restaurant reviews from four different languages: Spanish, Turkish, Dutch, and Russian. These datasets are part of SemEval-2016 Challenge Task 5.",yes,
+qasper,1912.08904_q2,HGC-LC,"Can you explain what a ""wizard of oz"" configuration is?",seeker interacts with a real conversational interface intermediary (or the wizard) receives the seeker's message and performs different information seeking actions,"A ""wizard of oz"" configuration is a setup where a human (called the intermediary or wizard) simulates the behavior of an automated system during an experiment. In this setup, the user interacts with what they believe is an autonomous system, but in reality, a human is interpreting their inputs and providing responses. This approach is useful for studying and collecting data on how users interact with systems that are still under development or for simulating ideal system behavior, as described in the document.",yes,
+qasper,1906.01081_q2,AC-LC,What is the extent to which PARENT’s correlation with human judgments surpasses that of other text generation metrics?,Best proposed metric has average correlation with human judgement of 0.913 and 0.846 compared to best compared metrics result of 0.758 and 0.829 on WikiBio and WebNLG challenge.,"Based on the provided documents, PARENT’s correlation with human judgments is either competitive with or better than other text generation metrics in terms of average correlation across all evaluated aspects (grammaticality, fluency, and semantics). Specifically, both variants of PARENT are reported to be either competitive or superior to other metrics in their average correlation to human ratings, as shown in the results from the WebNLG challenge. This indicates that PARENT generally surpasses other metrics in aligning with human judgments, especially for high-quality references.
+
+However, the exact numerical extent by which PARENT surpasses other metrics is not specified in the provided text. The documents state that a superscript of C/W indicates when the correlation is significantly lower than that of PARENT using a bootstrap confidence test for α = 0.1, but do not provide the precise correlation values or differences.
+
+In summary:  
+PARENT’s correlation with human judgments is generally competitive with or better than other metrics, but the exact extent of the improvement is not specified in the provided documents.",no,
+qasper,1909.06200_q4,AC-LC,"Who evaluated the accuracy of irony, the preservation of sentiment, and the retention of content?",Irony accuracy is judged only by human ; senriment preservation and content preservation are judged  both by human and using automatic metrics (ACC and BLEU).,"Four annotators who are proficient in English evaluated the accuracy of irony, the preservation of sentiment, and the retention of content.",no,
+qasper,1909.01362_q1,C-AC-LC,Which two datasets does the model utilize?,`Conversations Gone Awry' dataset subreddit ChangeMyView,"The model utilizes two datasets:
+
+1. An expanded version of the annotated Wikipedia conversations dataset (from ""Conversations Gone Awry""), where conversations are crowd-labeled based on whether they eventually lead to personal attacks.
+2. A dataset constructed from the subreddit ChangeMyView (CMV), where the prediction task is to forecast whether the conversation will be subject to moderator action in the future.",yes,
+qasper,2002.04181_q0,C-AC-LC,Which individuals are considered crowdworkers?,people in the US that use Amazon Mechanical Turk,The individuals considered crowdworkers are those located in the US and hired on the BIBREF22 platform.,yes,
+qasper,1706.01875_q2,HGC-LC,Which additional political occurrences are documented within the database?,US presidential primaries Democratic and Republican National Conventions,I don't know.,no,
+qasper,1907.09369_q2,C-AC-LC,Which baseline has been applied?,Wang et al. BIBREF21 paper by BIBREF33 in which they used maximum entropy classifier with bag of words model to classify various emotional datasets,"The two baselines that have been applied are:
+
+1. The approach by Wang et al., which uses a dataset of over 5 million tweets with emotional hashtags, applies heuristics to improve label quality, and uses classifiers such as multinomial Naive Bayes and LIBLINEAR (logistic regression branch) with features like n-grams, LIWC and MPQA lexicons, WordNet-Affect, and POS tags.
+
+2. The approach reported by BIBREF33, which uses a maximum entropy classifier with a bag of words model to classify the CrowdFlower dataset annotated for emotions.
+
+So, the baselines applied are:
+- LIBLINEAR (logistic regression) with various feature sets on hashtag-labeled tweets.
+- Maximum entropy classifier with bag of words on the CrowdFlower dataset.",yes,
+qasper,1909.03135_q3,C-AC-LC,What was the size of the datasets used to train ELMo?,"2174000000, 989000000","The exact sizes of the datasets used to train ELMo are not provided in the document. The document states that the English training corpus consisted of the English Wikipedia dump from February 2017, and the Russian training corpus was a concatenation of the Russian Wikipedia dump from December 2018 and the full Russian National Corpus (RNC). It also mentions that the English Wikipedia is about two times larger than the Russian corpus, but does not provide specific sizes.",no,
+qasper,1911.03059_q1,C-HGC-LC,Which machine learning methods were evaluated in the comparison?,"Multi-Layer Perceptron (MLP), Naive Bayes Classifier (NBC), Support Vector Machine (SVM), Gradient Boosting Classifier (GBC), Stochastic Gradient Descent (SGD), K Nearest Neighbour (K-NN) and Random Forest (RF)","The machine learning methods evaluated in the comparison are:
+
+- Multi-Layer Perceptron (MLP)
+- Naive Bayes Classifier (NBC)
+- Support Vector Machine (SVM)
+- Gradient Boosting Classifier (GBC)
+- Stochastic Gradient Descent (SGD)
+- K Nearest Neighbour (K-NN)
+- Random Forest (RF)",yes,
+qasper,1911.07555_q4,AC-LC,What languages share similarities with one another?,"Nguni languages (zul, xho, nbl, ssw) Sotho languages (nso, sot, tsn)","The Nguni languages (Zulu, Xhosa, Ndebele, Swati) are similar to each other, and the Sotho languages (Northern Sotho, Southern Sotho, Tswana) are also similar to each other.",yes,
+qasper,1908.06267_q2,AC-LC,Which system currently represents the most advanced technology?,doc2vec  CNN DAN Tree-LSTM DRNN LSTMN C-LSTM SPGK WMD S-WMD Semantic-CNN LSTM-GRNN HN-ATT,I don't know.,no,
+qasper,1909.13104_q6,AC-LC,Can you specify what the baseline was?,LastStateRNN AvgRNN AttentionRNN,I don't know.,no,
+qasper,1908.06264_q1,HGC-LC,Which datasets were utilized?,Friends EmotionPush,The datasets utilized were Friends and EmotionPush.,yes,
+qasper,1503.00841_q1,C-AC-LC,Which are the three types of regularization terms?,a regularization term associated with neutral features the maximum entropy of class distribution regularization term the KL divergence between reference and predicted class distribution,"The three regularization terms are:
+1. A regularization term associated with neutral features.
+2. The maximum entropy of class distribution regularization term.
+3. The KL divergence between reference and predicted class distribution.",yes,
+qasper,1908.07245_q1,C-AC-LC,Is WordNet integrated within their model?,"construct context-gloss pairs from all possible senses of the target word in WordNet, thus treating WSD task as a sentence-pair classification problem","Yes, they incorporate WordNet into the model by constructing context-gloss pairs from all possible senses of the target word in WordNet.",yes,
+qasper,1912.01214_q0,HGC-LC,What other multilingual methods do they evaluate alongside their own?,BIBREF19 BIBREF20,"The other multilingual methods they evaluate alongside their own are pivoting, multilingual NMT (MNMT), and cross-lingual transfer without pretraining.",no,
+qasper,1908.05828_q4,HGC-LC,What types of machine learning models are investigated by them?,BiLSTM BiLSTM-CNN BiLSTM-CRF BiLSTM-CNN-CRF,"The types of machine learning models investigated by them are BiLSTM, BiLSTM-CNN, BiLSTM-CRF, BiLSTM-CNN-CRF, CNN model, and Stanford CRF model.",yes,
+qasper,2002.12612_q0,C-HGC-LC,What are the two news domains that are not tied to any specific country?,mainstream news and disinformation,The two news domains that are country-independent are mainstream news and disinformation news.,yes,
+qasper,1901.05287_q0,AC-LC,Have any prior studies assessed any of these tasks?,yes,"Yes, prior studies have assessed these tasks. Specifically, BIBREF1 assessed the ability of LSTMs to learn subject-verb agreement patterns in English, BIBREF2 also considered subject-verb agreement in a “colorless green ideas” setting, and BIBREF3 considered a wider range of syntactic phenomena (subject-verb agreement, reflexive anaphora, negative polarity items) using manually constructed stimuli.",yes,
+qasper,1905.12801_q4,AC-LC,Which metrics are employed to assess bias?,UNANSWERABLE,"The metrics employed to assess bias are:
+
+1. **Co-occurrence bias**: Computed by comparing the occurrences of all gender-neutral words with female and male words in model-generated texts, using a sliding window of size 10. It captures unequal co-occurrences of neutral words with male and female words.
+
+2. **Conditional co-occurrence bias**: A normalized version of co-occurrence bias, less affected by the disparity in the general distribution of male and female words.
+
+3. **Ratio of occurrence of male and female words**: The ratio of male to female word occurrences in the model-generated text, which reflects the overall inclination to mention one gender over the other.
+
+4. **Causal occupation bias conditioned on occupation**: Measures how the output softmax probability for gendered words depends on the target occupation, given a seed sequence.
+
+5. **Causal occupation bias conditioned on gender**: Measures how the probabilities of gendered words depend on the occupation words in the seed sequence.
+
+6. **Embedding bias**: Defined as the difference between the Euclidean distance of an occupation word to male words and the distance to female counterparts, using gender-neutral occupations to observe if debiasing the output layer also decreases embedding bias.
+
+These metrics are used to capture and quantify different aspects of gender bias in language models.",no,
+qasper,1810.04428_q4,C-AC-LC,Can you provide the dimensions of each dataset?,"training set has 89,042 sentence pairs, and the test set has 100 pairs training set contains 296,402 2,000 for development and 359 for testing","Based on the provided document:
+
+- **WikiSmall**:  
+  - Training set: 89,042 sentence pairs  
+  - Test set: 100 sentence pairs
+
+- **WikiLarge**:  
+  - Training set: 296,402 sentence pairs  
+  - Development set: 2,000 sentences (each with 8 reference simplifications)  
+  - Test set: 359 sentences (each with 8 reference simplifications)
+
+These are the dimensions of each dataset as described in the document.",yes,
+qasper,1806.11432_q0,HGC-LC,Which keywords have been specified by the user?,Words that a user wants them to appear in the generated output.,"The keywords specified by the user are ""subway"" and ""manhattan"".",no,
+qasper,1910.06592_q4,C-AC-LC,Which features are obtained?,Sentiment Morality Style Words embeddings,"The features obtained are:
+
+- Emotion: Using word occurrences from emotional lexicons (NRC and SentiSense) covering various emotion categories.
+- Sentiment: Using sentiment lexicons (EffectWordNet, SenticNet, NRC, subj_lexicon) with positive and negative classes.
+- Morality: Based on morality foundation theory, labeling words in 10 categories (care, harm, fairness, cheating, loyalty, betrayal, authority, subversion, sanctity, degradation).
+- Style: Canonical stylistic features such as count of question marks, exclamation marks, consecutive characters and letters, links, hashtags, user mentions, uppercase ratio, and tweet length.
+- Word embeddings: Using GloVe-840B-300d pretrained model, averaging word embeddings for tweet representation.",yes,
+qasper,1909.00175_q0,C-HGC-LC,What are the latest advancements accomplished?,"F1 score of 92.19 on homographic pun detection, 80.19 on homographic pun location, 89.76 on heterographic pun detection.",I don't know.,no,
+qasper,1902.09666_q4,AC-LC,Which types of offensive material are addressed?,"non-targeted profanity and swearing, targeted insults such as cyberbullying, offensive content related to ethnicity, gender or sexual orientation, political affiliation, religious belief, and anything belonging to hate speech","The types of offensive material addressed are:
+
+1. Targeted insults and threats (TIN): Posts containing insults or threats directed at an individual, group, or others.
+2. Untargeted profanity and swearing (UNT): Posts containing non-targeted profanity and swearing, which are not directed at a specific target but contain non-acceptable language.
+
+Additionally, the targets of insults and threats are categorized as:
+- Individual (IND): Targeting an individual (e.g., a famous person, a named or unnamed participant).
+- Group (GRP): Targeting a group of people with common characteristics (e.g., ethnicity, gender, political affiliation, religious belief).
+- Other (OTH): Targeting entities not covered by the previous two categories (e.g., organizations, situations, events, or issues).",no,
+qasper,1810.12196_q0,HGC-LC,What types of questions does the dataset contain?,These 8 tasks require different competencies and a different level of understanding of the document to be well answered,"The dataset contains different types of questions, including Yes/No questions and rating questions.",no,
+qasper,1908.07195_q1,C-AC-LC,What is the extent of enhancement achieved through Adversarial Reward Augmented Maximum Likelihood (ARAML)?,"ARAM has achieved improvement over all baseline methods using reverese perplexity and  slef-BLEU metric.  The maximum reverse perplexity improvement 936,16 is gained for EMNLP2017  WMT  dataset and  48,44 for COCO dataset.",I don't know.,no,
+qasper,1704.04452_q5,AC-LC,What definition of a concept map do the authors provide?,"concept map BIBREF5 , a labeled graph showing concepts as nodes and relationships between them as edges",A concept map is defined as a labeled graph showing concepts as nodes and relationships between them as edges.,yes,
+qasper,1805.03710_q0,C-HGC-LC,Which languages do they create word embeddings for?,UNANSWERABLE,I don't know.,yes,
+qasper,1902.09666_q5,HGC-LC,Which model achieves the highest performance?,CNN,The CNN model achieves the highest performance.,yes,
+financebench,financebench_38,C-HGC-LC,"As of 2022, what debt instruments are listed for trading on a national securities exchange under the American Express name?",There are none,I don't know.,no,
+financebench,financebench_70,AC-LC,"Using details mainly from the balance sheet and income statement, what is Corning's days payable outstanding (DPO) for FY2020? Calculate DPO as follows: 365 times the average accounts payable from FY2019 and FY2020 divided by the sum of FY2020 cost of goods sold and the change in inventory from FY2019 to FY2020. Please round your response to two decimal places.",63.86,"Let's break down the calculation step by step using the provided documents.
+
+### 1. Gather the required data
+
+#### From the Balance Sheet ([docid=CORNING_2020_10K_page_71]):
+
+- **Accounts Payable:**
+  - 2020: $1,174 million
+  - 2019: $1,587 million
+
+- **Inventories:**
+  - 2020: $2,438 million
+  - 2019: $2,320 million
+
+#### From the Income Statement ([docid=CORNING_2020_10K_page_69]):
+
+- **Cost of Sales (Cost of Goods Sold, COGS) for 2020:** $7,772 million
+
+---
+
+### 2. Calculate the average accounts payable
+
+\[
+\text{Average Accounts Payable} = \frac{1,174 + 1,587}{2} = \frac{2,761}{2} = 1,380.5 \text{ million}
+\]
+
+---
+
+### 3. Calculate the change in inventory
+
+\[
+\text{Change in Inventory} = 2,438 - 2,320 = 118 \text{ million}
+\]
+
+---
+
+### 4. Calculate the denominator (COGS + Change in Inventory)
+
+\[
+\text{COGS + Change in Inventory} = 7,772 + 118 = 7,890 \text{ million}
+\]
+
+---
+
+### 5. Plug into the DPO formula
+
+\[
+\text{DPO} = \frac{365 \times \text{Average Accounts Payable}}{\text{COGS + Change in Inventory}}
+\]
+
+\[
+\text{DPO} = \frac{365 \times 1,380.5}{7,890}
+\]
+
+\[
+\text{DPO} = \frac{504,482.5}{7,890} \approx 63.96
+\]
+
+---
+
+### **Final Answer**
+
+**Corning's days payable outstanding (DPO) for FY2020 is approximately 63.96 days.**",no,
+financebench,financebench_40,AC-LC,"Has American Express shown an upward trend in its operating margin as of 2022? If operating margin is not an appropriate measure for evaluating this company, please clarify and provide reasons.",Performance is not measured through operating margin,"Based on the provided document ([docid=AMERICANEXPRESS_2022_10K_page_95]), we can calculate American Express's operating margin for the years 2020, 2021, and 2022 using the following formula:
+
+**Operating Margin = (Pretax Income / Total Revenues Net of Interest Expense)**
+
+Let's calculate for each year:
+
+- **2020:**
+  - Pretax income: $4,296 million
+  - Total revenues net of interest expense: $36,087 million
+  - Operating margin: $4,296 / $36,087 ≈ **11.9%**
+
+- **2021:**
+  - Pretax income: $10,689 million
+  - Total revenues net of interest expense: $42,380 million
+  - Operating margin: $10,689 / $42,380 ≈ **25.2%**
+
+- **2022:**
+  - Pretax income: $9,585 million
+  - Total revenues net of interest expense: $52,862 million
+  - Operating margin: $9,585 / $52,862 ≈ **18.1%**
+
+**Trend Analysis:**
+- The operating margin increased significantly from 2020 (11.9%) to 2021 (25.2%), but then decreased in 2022 (18.1%).
+- Therefore, as of 2022, American Express has **not shown an upward trend** in its operating margin; the margin declined from 2021 to 2022.
+
+**Appropriateness of Operating Margin:**
+Operating margin is a commonly used measure for evaluating the profitability of companies, including financial services firms like American Express. However, for financial institutions, other metrics such as net interest margin, return on assets, and return on equity are also important due to the nature of their business (interest income and credit losses play a significant role). Still, operating margin can provide insight into the company's efficiency in generating profit from its core operations.
+
+**Conclusion:**
+American Express has **not shown an upward trend in its operating margin as of 2022**; the margin decreased from 2021 to 2022. Operating margin is a reasonable measure for evaluating the company's profitability, but it should be considered alongside other financial metrics for a comprehensive assessment.",no,
+financebench,financebench_92,C-AC-LC,"How much cash did JnJ generate from the divestiture of Kenvue (previously the Consumer Health business segment) as of August 30, 2023?",JnJ realised $13.2 billion in cash proceeds from the separation of Kenvue.,"The amount of the cash proceeds that Johnson & Johnson realized from the separation of Kenvue (formerly Consumer Health business segment), as of August 30, 2023, is $13.2 billion.",yes,
+financebench,financebench_9,C-HGC-LC,"What was Activision Blizzard’s average capital expenditures as a percentage of revenue over fiscal years 2017 to 2019? Provide your answer in percent, rounded to one decimal, using data from the income statement and cash flow statement.",1.90%,"To calculate Activision Blizzard’s **average capital expenditures as a percentage of revenue** over fiscal years 2017 to 2019, we need:
+
+- **Capital expenditures (CapEx)** for each year (from the cash flow statement)
+- **Total net revenues** for each year (from the income statement)
+
+**Step 1: Gather the data**
+
+From [docid=ACTIVISIONBLIZZARD_2019_10K_page_72] (Cash Flow Statement):
+- 2019 CapEx: $116 million
+- 2018 CapEx: $131 million
+- 2017 CapEx: $155 million
+
+From [docid=ACTIVISIONBLIZZARD_2019_10K_page_69] (Income Statement):
+- 2019 Revenue: $6,489 million
+- 2018 Revenue: $7,500 million
+- 2017 Revenue: $7,017 million
+
+**Step 2: Calculate CapEx as a percentage of revenue for each year**
+
+- **2019:** (116 / 6,489) × 100 = 1.79%
+- **2018:** (131 / 7,500) × 100 = 1.75%
+- **2017:** (155 / 7,017) × 100 = 2.21%
+
+**Step 3: Calculate the average percentage**
+
+Average = (1.79% + 1.75% + 2.21%) / 3  
+Average = 5.75% / 3 = **1.92%**
+
+**Step 4: Round to one decimal place**
+
+**1.9%**
+
+---
+
+**Final Answer:**
+
+Activision Blizzard’s average capital expenditures as a percentage of revenue over fiscal years 2017 to 2019 was **1.9%**.",yes,
+financebench,financebench_4,C-AC-LC,"Which segment was responsible for slowing 3M's overall growth in 2022, disregarding the effects of mergers and acquisitions?",The consumer segment shrunk by 0.9% organically.,"To calculate the working capital ratio (also known as the current ratio), use the formula:
+
+\[
+\text{Working Capital Ratio} = \frac{\text{Total Current Assets}}{\text{Total Current Liabilities}}
+\]
+
+From the balance sheet for December 31, 2016:
+
+- Total Current Assets = \$1,001,425 (in thousands)
+- Total Current Liabilities = \$577,464 (in thousands)
+
+\[
+\text{Working Capital Ratio} = \frac{1,001,425}{577,464} \approx 1.73
+\]
+
+**Answer:**  
+Block's FY2016 working capital ratio is **1.73**.",no,
+financebench,financebench_88,C-AC-LC,Is Johnson & Johnson's adjusted earnings per share projected to increase at a faster rate in fiscal year 2023?,"No, rate of growth in adjusted EPS is expected to decelerate slightly from 3.6% in FY2022 to 3.5% in FY2023.","Based on the provided document, Johnson & Johnson's adjusted earnings per share (EPS) increased by 3.6% in fiscal year 2022. The company is guiding for adjusted operational EPS growth of 3.5% in 2023. Therefore, Johnson & Johnson's adjusted earnings per share is not projected to increase at a faster rate in fiscal year 2023 compared to 2022.",yes,
+financebench,financebench_46,C-AC-LC,"Using the cash flow statement and income statement, what is American Water Works’s unadjusted EBITDA (operating income plus depreciation and amortization from the cash flow statement) for FY2021, expressed in millions of USD?","$1,832.00 ","Let's calculate the FY2019 cash conversion cycle (CCC) for General Mills step by step using the definitions and the data provided:
+
+**Definitions:**
+- CCC = DIO + DSO - DPO
+- DIO = 365 × (average inventory) / (FY2019 COGS)
+- DSO = 365 × (average receivables) / (FY2019 Revenue)
+- DPO = 365 × (average accounts payable) / (FY2019 COGS + change in inventory)
+
+**Step 1: Gather Data**
+
+From [docid=GENERALMILLS_2019_10K_page_52] and [docid=GENERALMILLS_2019_10K_page_54]:
+
+- FY2019 COGS (Cost of sales): $11,108.4 million
+- FY2019 Revenue (Net sales): $16,865.2 million
+- Inventory:
+  - FY2019: $1,559.3 million
+  - FY2018: $1,642.2 million
+- Receivables:
+  - FY2019: $1,679.7 million
+  - FY2018: $1,684.2 million
+- Accounts Payable:
+  - FY2019: $2,854.1 million
+  - FY2018: $2,746.2 million
+
+**Step 2: Calculate Averages and Changes**
+
+- Average Inventory = (1,559.3 + 1,642.2) / 2 = **1,600.75 million**
+- Average Receivables = (1,679.7 + 1,684.2) / 2 = **1,681.95 million**
+- Average Accounts Payable = (2,854.1 + 2,746.2) / 2 = **2,800.15 million**
+- Change in Inventory = 1,559.3 - 1,642.2 = **-82.9 million**
+
+**Step 3: Calculate DIO**
+
+DIO = 365 × (average inventory) / (FY2019 COGS)
+- DIO = 365 × 1,600.75 / 11,108.4
+- DIO = 365 × 0.1441
+- DIO = **52.10 days**
+
+**Step 4: Calculate DSO**
+
+DSO = 365 × (average receivables) / (FY2019 Revenue)
+- DSO = 365 × 1,681.95 / 16,865.2
+- DSO = 365 × 0.0998
+- DSO = **36.43 days**
+
+**Step 5: Calculate DPO**
+
+DPO = 365 × (average accounts payable) / (FY2019 COGS + change in inventory)
+- FY2019 COGS + change in inventory = 11,108.4 + (-82.9) = 11,025.5
+- DPO = 365 × 2,800.15 / 11,025.5
+- DPO = 365 × 0.2540
+- DPO = **92.21 days**
+
+**Step 6: Calculate CCC**
+
+CCC = DIO + DSO - DPO
+- CCC = 52.10 + 36.43 - 92.21
+- CCC = 88.53 - 92.21
+- CCC = **-3.68 days**
+
+---
+
+**Final Answer:**
+
+**The FY2019 cash conversion cycle (CCC) for General Mills is -3.68 days.**",no,
+financebench,financebench_139,HGC-LC,What factors contributed to the rise in Ulta Beauty’s merchandise inventories at the close of fiscal year 2023?,"Increase in Merchandise inventories balance was driven by the opening of 47 new stores. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",I don't know.,no,
+financebench,financebench_123,HGC-LC,"How much was PepsiCo’s unadjusted EBITDA minus capital expenditures in FY2022, where unadjusted EBITDA is calculated as operating income before adjustments plus depreciation and amortization (as reported in the cash flow statement)? Please provide the answer in USD millions, using only information available from the income statement and the statement of cash flows, as an investment analyst would.","$9,068.00 ","As an investment analyst using only the details from the provided statements:
+
+**Unadjusted EBITDA** is defined as:  
+Operating Income (from income statement) + Depreciation and Amortization (from cash flow statement)
+
+From [PEPSICO_2022_10K_page_61] (Income Statement):
+- Operating Profit (Operating Income) for FY2022: **$11,512 million**
+
+From [PEPSICO_2022_10K_page_63] (Cash Flow Statement):
+- Depreciation and Amortization for FY2022: **$2,763 million**
+
+So,
+**Unadjusted EBITDA = $11,512 million + $2,763 million = $14,275 million**
+
+**Capex** (Capital Spending) from [PEPSICO_2022_10K_page_63]:
+- Capital Spending for FY2022: **$5,207 million**
+
+**Unadjusted EBITDA less Capex = $14,275 million - $5,207 million = $9,068 million**
+
+**Final Answer:**  
+FY2022 unadjusted EBITDA less capex for PepsiCo is **$9,068 million** (USD millions).",yes,
+financebench,financebench_31,AC-LC,"Is AMD's liquidity position for FY22 adequately reflected by its quick ratio? If the quick ratio does not serve as an appropriate indicator of liquidity, please clarify and provide reasoning.","Yes. The quick ratio is 1.57, calculated as (cash and cash equivalents+Short term investments+Accounts receivable, net+receivables from related parties)/ (current liabilities).","To assess AMD's liquidity profile using the quick ratio for FY22, we need to calculate the quick ratio, which is defined as:
+
+**Quick Ratio = (Cash and Cash Equivalents + Short-term Investments + Accounts Receivable) / Current Liabilities**
+
+From the document ([docid=AMD_2022_10K_page_55]), as of December 31, 2022:
+
+- Cash and cash equivalents: $4,835 million
+- Short-term investments: $1,020 million
+- Accounts receivable, net: $4,126 million
+- Current liabilities: $6,369 million
+
+Plugging in the numbers:
+
+Quick Assets = $4,835 + $1,020 + $4,126 = $9,981 million  
+Current Liabilities = $6,369 million
+
+**Quick Ratio = $9,981 / $6,369 ≈ 1.57**
+
+A quick ratio above 1 generally indicates that a company has enough liquid assets to cover its short-term liabilities without relying on inventory sales. A ratio of 1.57 suggests that AMD has a reasonably healthy liquidity profile for FY22.
+
+**Conclusion:**  
+Yes, AMD has a reasonably healthy liquidity profile based on its quick ratio for FY22, as the ratio is well above 1. The quick ratio is a relevant measure of liquidity because it focuses on the company's most liquid assets relative to its short-term obligations.",yes,
+financebench,financebench_16,AC-LC,"Approximately how frequently did AES Corporation turn over its inventory during fiscal year 2022? Determine the inventory turnover ratio for FY2022; if traditional inventory management practices are not applicable to the company, mention this and provide an explanation.",AES has converted inventory 9.5 times in FY 2022.,"To determine the inventory turnover ratio for AES Corporation for fiscal year 2022, we use the following formula:
+
+**Inventory Turnover Ratio = Cost of Goods Sold (COGS) / Average Inventory**
+
+From the provided documents:
+
+- **Cost of Sales (COGS) for 2022:** $10,069 million (from [docid=AES_2022_10K_page_131])
+- **Inventory at end of 2022:** $1,055 million (from [docid=AES_2022_10K_page_129])
+- **Inventory at end of 2021:** $604 million (from [docid=AES_2022_10K_page_129])
+
+**Average Inventory = (Beginning Inventory + Ending Inventory) / 2**
+= ($604 million + $1,055 million) / 2
+= $1,659 million / 2
+= $829.5 million
+
+**Inventory Turnover Ratio = $10,069 million / $829.5 million ≈ 12.14**
+
+**Conclusion:**  
+AES Corporation turned over its inventory approximately **12.1 times** during fiscal year 2022.
+
+**Note:**  
+While AES Corporation is primarily a power generation and utility company, which typically has lower inventory levels relative to manufacturing or retail companies, it does report inventory and cost of sales, making the inventory turnover ratio applicable. However, the nature of its inventory (likely fuel, spare parts, etc.) and its business model mean that traditional inventory management practices may not be as central to its operations as they are for companies in other industries. The ratio should be interpreted with this context in mind.",no,
+financebench,financebench_104,C-AC-LC,"Calculate the average capital expenditures as a percentage of revenue for MGM Resorts over fiscal years 2018 to 2020. Express your answer in percent, rounded to one decimal, using data mainly from the cash flow and income statements.",7.90%,"Let's break down the calculation step by step:
+
+**Step 1: Gather Capital Expenditures and Revenues for 2018-2020**
+
+From [docid=MGMRESORTS_2020_10K_page_66] (Cash Flow Statement):
+- Capital expenditures, net of construction payable:
+  - 2020: $270,579,000
+  - 2019: $739,006,000
+  - 2018: $1,486,843,000
+
+From [docid=MGMRESORTS_2020_10K_page_64] (Income Statement):
+- Revenues:
+  - 2020: $5,162,082,000
+  - 2019: $12,899,672,000
+  - 2018: $11,763,096,000
+
+**Step 2: Calculate Capital Expenditures as a Percentage of Revenue for Each Year**
+
+Formula:  
+\[
+\text{CapEx % of Revenue} = \frac{\text{Capital Expenditures}}{\text{Revenue}} \times 100
+\]
+
+- **2020:**  
+  \[
+  \frac{270,579}{5,162,082} \times 100 = 5.2\%
+  \]
+
+- **2019:**  
+  \[
+  \frac{739,006}{12,899,672} \times 100 = 5.7\%
+  \]
+
+- **2018:**  
+  \[
+  \frac{1,486,843}{11,763,096} \times 100 = 12.6\%
+  \]
+
+**Step 3: Calculate the Average Percentage Over 3 Years**
+
+\[
+\text{Average} = \frac{5.2 + 5.7 + 12.6}{3} = \frac{23.5}{3} = 7.8\%
+\]
+
+**Final Answer:**
+
+**The average capital expenditures as a percentage of revenue for MGM Resorts over fiscal years 2018 to 2020 is 7.8%.**",no,
+financebench,financebench_139,AC-LC,What factors contributed to the rise in Ulta Beauty’s merchandise inventories at the close of fiscal year 2023?,"Increase in Merchandise inventories balance was driven by the opening of 47 new stores. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.","The answer is not present in the documents. The documents provide information about the factors that contributed to the rise in Ulta Beauty’s merchandise inventories at the close of fiscal year 2022, but not fiscal year 2023.",no,
+financebench,financebench_13,C-AC-LC,"Has Adobe's operating margin shown improvement in fiscal year 2022? If operating margin is not an appropriate measure for this type of company, please indicate that and provide reasoning.",No the operating margins of Adobe have recently declined from 36.8% in FY 2021 to 34.6% in FY2022. A drop by 2.2% in a year.,"Among all of the derivative instruments that Verizon used to manage the exposure to fluctuations of foreign currency exchange rates or interest rates, the cross currency swaps had the highest notional value in FY 2021, with a notional amount of $32,502 million.",no,
+financebench,financebench_149,C-HGC-LC,"Calculate Walmart’s average unadjusted EBITDA margin percentage over fiscal years 2018 through 2020, where unadjusted EBITDA is defined as operating income (unadjusted) plus depreciation and amortization from the cash flow statement. Provide your answer in percent, rounded to one decimal, using line items directly from the P&L and cash flow statements as specified.",6.20%,"Let's calculate the FY2018 - FY2020 3-year average unadjusted EBITDA % margin for Walmart.
+
+**Definition:**  
+Unadjusted EBITDA = Operating Income (from P&L) + Depreciation and Amortization (from Cash Flow Statement)  
+EBITDA % Margin = (EBITDA / Total Revenues) × 100
+
+---
+
+### Step 1: Gather Data
+
+#### Operating Income (from [docid=WALMART_2020_10K_page_50])
+- 2020: $20,568 million
+- 2019: $21,957 million
+- 2018: $20,437 million
+
+#### Depreciation and Amortization (from [docid=WALMART_2020_10K_page_55])
+- 2020: $10,987 million
+- 2019: $10,678 million
+- 2018: $10,529 million
+
+#### Total Revenues (from [docid=WALMART_2020_10K_page_50])
+- 2020: $523,964 million
+- 2019: $514,405 million
+- 2018: $500,343 million
+
+---
+
+### Step 2: Calculate Unadjusted EBITDA
+
+#### 2020
+- EBITDA = $20,568 + $10,987 = $31,555 million
+
+#### 2019
+- EBITDA = $21,957 + $10,678 = $32,635 million
+
+#### 2018
+- EBITDA = $20,437 + $10,529 = $30,966 million
+
+---
+
+### Step 3: Calculate EBITDA % Margin
+
+#### 2020
+- Margin = ($31,555 / $523,964) × 100 = 6.0%
+
+#### 2019
+- Margin = ($32,635 / $514,405) × 100 = 6.3%
+
+#### 2018
+- Margin = ($30,966 / $500,343) × 100 = 6.2%
+
+---
+
+### Step 4: Calculate 3-Year Average
+
+- Average = (6.0% + 6.3% + 6.2%) / 3 = 6.2%
+
+---
+
+**Final Answer:**
+
+**The FY2018 - FY2020 3-year average unadjusted EBITDA % margin for Walmart is 6.2%.**",yes,
+financebench,financebench_82,HGC-LC,"Based solely on the data presented in the statement of financial position, what is General Mills's working capital ratio for fiscal year 2020? Calculate the ratio by dividing total current assets by total current liabilities, and round your result to two decimal places.",0.68,"To calculate the working capital ratio (also known as the current ratio), use the formula:
+
+**Working Capital Ratio = Total Current Assets / Total Current Liabilities**
+
+From the document for FY2020 (as of May 31, 2020):
+
+- Total current assets = $5,121.3 million
+- Total current liabilities = $7,491.5 million
+
+So,
+
+Working Capital Ratio = $5,121.3 / $7,491.5 ≈ 0.68
+
+**Answer:**  
+General Mills's FY2020 working capital ratio is **0.68**.",yes,
+financebench,financebench_112,AC-LC,Could you determine Netflix’s unadjusted EBITDA percentage margin for fiscal year 2015? Use the unadjusted operating income from the income statement and add depreciation and amortization amounts from the cash flow statement to calculate unadjusted EBITDA.,5.40%,"To calculate Netflix’s unadjusted EBITDA percentage margin for fiscal year 2015:
+
+**Step 1: Find Operating Income (from the income statement)**
+- Operating income (2015): $305,826 thousand
+
+**Step 2: Add Depreciation and Amortization (from the cash flow statement)**
+- Amortization of streaming content assets: $3,405,382 thousand
+- Amortization of DVD content assets: $79,380 thousand
+- Depreciation and amortization of property, equipment and intangibles: $62,283 thousand
+- Total Depreciation & Amortization = $3,405,382 + $79,380 + $62,283 = $3,547,045 thousand
+
+**Step 3: Calculate Unadjusted EBITDA**
+- EBITDA = Operating Income + Depreciation & Amortization
+- EBITDA = $305,826 + $3,547,045 = $3,852,871 thousand
+
+**Step 4: Find Total Revenues (from the income statement)**
+- Revenues (2015): $6,779,511 thousand
+
+**Step 5: Calculate EBITDA Margin**
+- EBITDA Margin = (EBITDA / Revenues) × 100%
+- EBITDA Margin = ($3,852,871 / $6,779,511) × 100% ≈ 56.8%
+
+**Final Answer:**
+Netflix’s unadjusted EBITDA percentage margin for fiscal year 2015 is **approximately 56.8%**.",no,
+financebench,financebench_82,C-HGC-LC,"Based solely on the data presented in the statement of financial position, what is General Mills's working capital ratio for fiscal year 2020? Calculate the ratio by dividing total current assets by total current liabilities, and round your result to two decimal places.",0.68,"To calculate the working capital ratio (also known as the current ratio), use the formula:
+
+**Working Capital Ratio = Total Current Assets / Total Current Liabilities**
+
+From the document for FY2020 (as of May 31, 2020):
+
+- Total current assets = $5,121.3 million
+- Total current liabilities = $7,491.5 million
+
+So,
+
+Working Capital Ratio = $5,121.3 / $7,491.5 ≈ 0.68
+
+**Answer:**  
+General Mills's FY2020 working capital ratio is **0.68**.",yes,
+financebench,financebench_18,AC-LC,"Calculate Amazon's days payable outstanding (DPO) for fiscal year 2017, using the formula: 365 × (average accounts payable from FY2016 and FY2017) ÷ (FY2017 cost of goods sold plus the change in inventory from FY2016 to FY2017). Round your answer to two decimal places and base your calculations solely on the figures provided in the balance sheet and profit & loss statement.",93.86,"Let's calculate Amazon's FY2017 Days Payable Outstanding (DPO) step by step using the provided documents.
+
+**Step 1: Gather the required data**
+
+From the documents:
+
+- **Accounts Payable:**
+  - 2016: \$25,309 million
+  - 2017: \$34,616 million
+
+- **Cost of Goods Sold (COGS) / Cost of Sales (2017):**
+  - 2017: \$111,934 million
+
+- **Inventories:**
+  - 2016: \$11,461 million
+  - 2017: \$16,047 million
+
+**Step 2: Calculate average accounts payable**
+
+\[
+\text{Average Accounts Payable} = \frac{25,309 + 34,616}{2} = \frac{59,925}{2} = 29,962.5 \text{ million}
+\]
+
+**Step 3: Calculate change in inventory**
+
+\[
+\text{Change in Inventory} = 16,047 - 11,461 = 4,586 \text{ million}
+\]
+
+**Step 4: Calculate denominator (COGS + change in inventory)**
+
+\[
+\text{COGS + Change in Inventory} = 111,934 + 4,586 = 116,520 \text{ million}
+\]
+
+**Step 5: Plug into DPO formula**
+
+\[
+\text{DPO} = 365 \times \frac{\text{Average Accounts Payable}}{\text{COGS + Change in Inventory}}
+\]
+
+\[
+\text{DPO} = 365 \times \frac{29,962.5}{116,520}
+\]
+
+\[
+\frac{29,962.5}{116,520} = 0.2572
+\]
+
+\[
+\text{DPO} = 365 \times 0.2572 = 93.88
+\]
+
+**Final Answer:**
+
+**Amazon's FY2017 days payable outstanding (DPO) is 93.88 days.**",no,
+financebench,financebench_100,C-HGC-LC,"Using only the explicit figures found in Lockheed Martin's balance sheet and profit & loss statement, what is the company's asset turnover ratio for fiscal year 2020? The asset turnover ratio should be calculated as FY2020 revenue divided by the average total assets for FY2019 and FY2020. Please provide your answer rounded to two decimal places.",1.33,"Let's calculate the asset turnover ratio step by step:
+
+**Formula:**
+Asset Turnover Ratio = Revenue / Average Total Assets
+
+**Step 1: Find FY2020 Revenue (Total Net Sales)**
+From [docid=LOCKHEEDMARTIN_2020_10K_page_66]:
+- FY2020 Total Net Sales = $65,398 million
+
+**Step 2: Find Total Assets for FY2019 and FY2020**
+From [docid=LOCKHEEDMARTIN_2020_10K_page_68]:
+- Total Assets as of December 31, 2020 = $50,710 million
+- Total Assets as of December 31, 2019 = $47,528 million
+
+**Step 3: Calculate Average Total Assets**
+Average Total Assets = (FY2019 Total Assets + FY2020 Total Assets) / 2
+= ($47,528 million + $50,710 million) / 2
+= $98,238 million / 2
+= $49,119 million
+
+**Step 4: Calculate Asset Turnover Ratio**
+Asset Turnover Ratio = Revenue / Average Total Assets
+= $65,398 million / $49,119 million
+≈ 1.33
+
+**Final Answer:**
+**1.33**",yes,
+financebench,financebench_79,HGC-LC,Has Foot Locker's newly appointed CEO previously served as a CEO at a company comparable to Foot Locker?,Yes. She was previous CEO of Ulta Beauty which means she had to manage a large retail company that has brick and mortar + online business. So yes she was a CEO in a similar company to Foot Locker before this.,"Yes, Foot Locker's newly appointed CEO, Mary N. Dillon, previously served as Chief Executive Officer of Ulta Beauty, Inc., which is a company comparable to Foot Locker in terms of being a large retail chain.",yes,
+financebench,financebench_100,C-AC-LC,"Using only the explicit figures found in Lockheed Martin's balance sheet and profit & loss statement, what is the company's asset turnover ratio for fiscal year 2020? The asset turnover ratio should be calculated as FY2020 revenue divided by the average total assets for FY2019 and FY2020. Please provide your answer rounded to two decimal places.",1.33,"Entertainment performed the best by top line in the domestic (USA) market during Q2 of FY2024, with a 9.0% comparable sales growth driven primarily by gaming.",no,
+financebench,financebench_138,AC-LC,What factors contributed to the decrease in SG&A expenses relative to net sales during fiscal year 2023?,"Lower marketing expenses and leverage of incentive compensation due to higher sales. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.","The decrease in SG&A expenses relative to net sales during fiscal year 2023 was primarily due to lower marketing expenses and leverage of incentive compensation due to higher sales. This was partially offset by deleverage of corporate overhead due to strategic investments and deleverage of store payroll and benefits due to wage investments.
+
+(Source: [docid=ULTABEAUTY_2023Q4_EARNINGS_page_1])",yes,
+financebench,financebench_68,C-AC-LC,What percentage of sales did Coca Cola's cost of goods sold represent in fiscal year 2021? Determine this figure using the relevant line items provided in the income statement.,39.70%,"To determine what percentage of sales (net operating revenues) Coca-Cola's cost of goods sold (COGS) represented in fiscal year 2021, use the following formula:
+
+\[
+\text{COGS as a percentage of sales} = \left( \frac{\text{Cost of goods sold}}{\text{Net Operating Revenues}} \right) \times 100
+\]
+
+From the document:
+- Net Operating Revenues (2021): \$38,655 million
+- Cost of goods sold (2021): \$15,357 million
+
+Plug in the values:
+
+\[
+\text{COGS as a percentage of sales} = \left( \frac{15,357}{38,655} \right) \times 100 \approx 39.73\%
+\]
+
+**Answer:**  
+Coca-Cola's cost of goods sold represented approximately **39.7%** of sales in fiscal year 2021.",yes,
+financebench,financebench_18,HGC-LC,"Calculate Amazon's days payable outstanding (DPO) for fiscal year 2017, using the formula: 365 × (average accounts payable from FY2016 and FY2017) ÷ (FY2017 cost of goods sold plus the change in inventory from FY2016 to FY2017). Round your answer to two decimal places and base your calculations solely on the figures provided in the balance sheet and profit & loss statement.",93.86,"Let's calculate Amazon's Days Payable Outstanding (DPO) for fiscal year 2017 using the provided formula and data:
+
+**Formula:**
+
+\[
+\text{DPO} = 365 \times \frac{\text{Average Accounts Payable}}{\text{Cost of Goods Sold (COGS) + Change in Inventory}}
+\]
+
+**Step 1: Find the required values from the documents**
+
+- **Accounts Payable:**
+  - 2016: \$25,309 million
+  - 2017: \$34,616 million
+
+- **COGS (Cost of Sales):**
+  - 2017: \$111,934 million
+
+- **Inventory:**
+  - 2016: \$11,461 million
+  - 2017: \$16,047 million
+
+---
+
+**Step 2: Calculate Average Accounts Payable**
+
+\[
+\text{Average Accounts Payable} = \frac{25,309 + 34,616}{2} = \frac{59,925}{2} = 29,962.5 \text{ million}
+\]
+
+---
+
+**Step 3: Calculate Change in Inventory**
+
+\[
+\text{Change in Inventory} = 16,047 - 11,461 = 4,586 \text{ million}
+\]
+
+---
+
+**Step 4: Calculate Denominator (COGS + Change in Inventory)**
+
+\[
+\text{COGS + Change in Inventory} = 111,934 + 4,586 = 116,520 \text{ million}
+\]
+
+---
+
+**Step 5: Plug into the DPO formula**
+
+\[
+\text{DPO} = 365 \times \frac{29,962.5}{116,520}
+\]
+
+\[
+\frac{29,962.5}{116,520} = 0.2573
+\]
+
+\[
+\text{DPO} = 365 \times 0.2573 = 93.92
+\]
+
+---
+
+**Final Answer:**
+
+\[
+\boxed{93.92}
+\]
+
+Amazon's days payable outstanding (DPO) for fiscal year 2017 is **93.92 days**.",no,
+financebench,financebench_35,HGC-LC,"Which of AMD's operating, investing, or financing activities generated the highest net cash inflow (or incurred the smallest net cash outflow) during fiscal year 2022?","In 2022, AMD brought in the most cashflow from Operations","In FY22, among operations, investing, and financing activities, **operating activities brought in the most cash flow for AMD**.
+
+- Net cash provided by operating activities: **$3,565 million**
+- Net cash provided by (used in) investing activities: $1,999 million
+- Net cash (used in) provided by financing activities: $(3,264) million
+
+Therefore, **operating activities brought in the most cash flow for AMD in FY22**.",yes,
+financebench,financebench_66,AC-LC,What is the difference between Boeing's effective tax rate in fiscal year 2022 and fiscal year 2021?,"Effective tax rate in FY2022 was 0.62%, compared to  -14.76% in FY2021.","To determine Boeing's effective tax rate, we use the formula:
+
+Effective Tax Rate = Income Tax (Expense)/Benefit ÷ Loss Before Income Taxes
+
+From the document:
+
+**FY2022:**
+- Loss before income taxes: $(5,022) million
+- Income tax (expense): $(31) million
+
+Effective tax rate 2022 = (-31) / (-5,022) = 0.0062, or **0.62%**
+
+**FY2021:**
+- Loss before income taxes: $(5,033) million
+- Income tax (benefit): $743 million
+
+Effective tax rate 2021 = 743 / (-5,033) = -0.1476, or **-14.76%**
+
+**Comparison:**
+- In FY2022, Boeing had a small tax expense, resulting in a positive effective tax rate of 0.62%.
+- In FY2021, Boeing had a tax benefit, resulting in a negative effective tax rate of -14.76%.
+
+**Conclusion:**  
+Boeing's effective tax rate in FY2022 (0.62%) was higher than in FY2021 (-14.76%), shifting from a negative (tax benefit) to a positive (tax expense) rate.",yes,
+financebench,financebench_110,C-AC-LC,"How much was Microsoft's cost of goods sold (COGS) for fiscal year 2016, reported in USD millions? Please answer based mainly on the income statement.","$32,780.00 ","The FY2016 Cost of Goods Sold (COGS) for Microsoft is $32,780 million USD.",yes,
+financebench,financebench_66,C-AC-LC,What is the difference between Boeing's effective tax rate in fiscal year 2022 and fiscal year 2021?,"Effective tax rate in FY2022 was 0.62%, compared to  -14.76% in FY2021.","The operating margin for AMD decreased in FY22 compared to FY21. According to the document [AMD_2022_10K_page_42], the primary driver of this change was the amortization of intangible assets associated with the Xilinx acquisition. Specifically, operating income for 2022 was $1.3 billion compared to $3.6 billion for 2021, and the decrease was ""primarily driven by amortization of intangible assets associated with the Xilinx acquisition."" Additionally, while net revenue increased significantly, gross margin as a percentage of net revenue decreased from 48% in 2021 to 45% in 2022, also primarily due to the Xilinx acquisition.
+
+Therefore, the change in operating margin was mainly due to increased amortization expenses from the Xilinx acquisition, which reduced operating income despite higher revenues.
+
+If operating margin were not a useful metric, it would be because some technology companies may have significant non-cash expenses (like amortization of acquired intangibles) that can distort operating margin as a measure of core business performance. However, in this case, operating margin is still a relevant metric, but it is important to understand the impact of acquisition-related amortization on the results.",no,
+financebench,financebench_128,C-AC-LC,What prompted Pepsico to increase its full-year forecast for FY2023 as of the first quarter of fiscal year 2023?,Pepsico experienced a strong start to FY2023.,"The key agenda of Amcor's 8-K filing dated July 1, 2022, was to announce that, on June 30, 2022, Amcor Finance (USA), Inc. (the Former Issuer) and Amcor Flexibles North America, Inc. (the Substitute Issuer), both wholly-owned subsidiaries of Amcor plc, entered into supplemental indentures with Deutsche Bank Trust Company Americas (as trustee). These supplemental indentures relate to the substitution of Amcor Flexibles North America, Inc. as the issuer in place of Amcor Finance (USA), Inc. for certain outstanding guaranteed senior notes (the 3.625% Guaranteed Senior Notes due 2026 and the 4.500% Guaranteed Senior Notes due 2028), and the assumption by the Substitute Issuer of the covenants of the Former Issuer under the relevant indentures.",no,
+financebench,financebench_3,C-AC-LC,"What factors influenced 3M's operating margin in fiscal year 2022? If operating margin is not an appropriate metric for this type of company, please indicate that and provide your reasoning.","Operating Margin for 3M in FY2022 has decreased by 1.7% primarily due to: 
+-Decrease in gross Margin
+-mostly one-off charges including Combat Arms Earplugs litigation, impairment related to exiting PFAS manufacturing, costs related to exiting Russia and divestiture-related restructuring
+charges","The operating income margin for 3M decreased from 20.8% in 2021 to 19.1% in 2022, a decline of 1.7 percentage points.
+
+The main drivers of this change in operating margin as of FY2022 were:
+
+1. **Increased Cost of Sales**: Cost of sales as a percent of net sales increased by 3.0 percentage points, primarily due to:
+   - Special item costs for significant litigation related to PFAS matters at the Zwijndrecht, Belgium site.
+   - Higher raw materials and logistics costs.
+   - Manufacturing productivity headwinds, including the shutdown and restart of certain operations in Belgium.
+   - Investments in growth, productivity, and sustainability.
+   - These increases were partially offset by higher selling prices.
+
+2. **Higher Selling, General and Administrative Expenses (SG&A)**: SG&A as a percent of sales increased by 6.1 percentage points, mainly due to:
+   - Increased special item costs for significant litigation, especially related to the Combat Arms Earplugs litigation (including a $1.2 billion pre-tax charge in Q2 2022).
+   - Impairment costs related to exiting PFAS manufacturing.
+   - Costs related to exiting Russia.
+   - Divestiture-related restructuring charges.
+   - Continued investment in key growth initiatives.
+   - These increases were partially offset by restructuring benefits and ongoing cost management.
+
+3. **Decrease in Research, Development and Related Expenses (R&D)**: R&D as a percent of sales decreased slightly by 0.2 percentage points.
+
+4. **Gain on Business Divestitures**: There was a significant gain on business divestitures (8.0% of net sales), primarily from the split-off and combination of the Food Safety business with Neogen Corporation.
+
+5. **Goodwill Impairment Expense**: A goodwill impairment charge (0.8% of net sales) was recorded due to the commitment to exit PFAS manufacturing.
+
+**Summary:**  
+The decline in operating margin was primarily driven by higher costs of sales and SG&A expenses, largely due to litigation, impairment, and restructuring costs, as well as increased raw material and logistics costs. These negative impacts were partially offset by gains from business divestitures and higher selling prices.
+
+Operating margin is a useful metric for a company like 3M, as it reflects the company's ability to manage its core operating costs relative to its sales, and highlights the impact of significant one-time items such as litigation and divestitures.",yes,
+financebench,financebench_135,C-HGC-LC,"By Q2 2023, has Pfizer announced plans to divest or separate any major divisions?","Yes, it's spinning off Upjohn.","Yes, by Q2 2023, Pfizer announced plans to divest its early-stage rare disease gene therapy portfolio. In July 2023, Pfizer entered into an agreement with Alexion, a subsidiary of AstraZeneca plc, under which Alexion will purchase and license the assets of Pfizer's early-stage rare disease gene therapy portfolio. This divestiture is consistent with Pfizer's strategy to pivot from viral capsid-based gene therapy approaches to new platform technologies such as mRNA or in vivo gene editing. The transaction is expected to close in the third quarter of 2023, subject to customary closing conditions.
+
+Additionally, Pfizer mentions incurring costs related to the separation of Upjohn, with approximately 90% of the expected $700 million in costs incurred by the second quarter of 2023.
+
+[Source: Pfizer_2023Q2_10Q_page_40]",yes,
+financebench,financebench_132,HGC-LC,Which three primary firms acquired by Pfizer are listed in this 10K filing?,"Trillium, Array, and Therachon","The three primary firms acquired by Pfizer listed in this 10K filing are:
+
+1. Trillium  
+2. Array  
+3. Therachon",yes,
+financebench,financebench_134,C-AC-LC,Which geographic area experienced the largest year-over-year percentage decline in revenues for Pfizer in Q2 2023?,Developed Rest of the World,"To calculate American Water Works's FY2021 unadjusted EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization), we add operating income and depreciation & amortization (D&A):
+
+From the documents:
+
+- Operating income (2021): $1,196 million  
+  (from [docid=AMERICANWATERWORKS_2021_10K_page_85])
+- Depreciation and amortization (2021): $636 million  
+  (from both the income statement and cash flow statement)
+
+**Calculation:**
+
+Unadjusted EBITDA = Operating Income + Depreciation & Amortization  
+Unadjusted EBITDA = $1,196 million + $636 million  
+Unadjusted EBITDA = **$1,832 million**
+
+**Answer:**  
+$1,832 million",no,
+financebench,financebench_131,C-HGC-LC,Did Pfizer experience any unusual occurrences outside of its typical business activities in 2019 that significantly boosted its net income?,"Yes, the gain on completion of Consumer Healthcare JV Transaction","Yes, according to the document, in 2019 Pfizer had a substantial gain from the completion of the Consumer Healthcare JV transaction, which is not part of its standard business operations. This gain was recorded as ""(Gain) on completion of Consumer Healthcare JV transaction"" and amounted to $8,107 million, significantly increasing net income for that year.",yes,
+financebench,financebench_16,HGC-LC,"Approximately how frequently did AES Corporation turn over its inventory during fiscal year 2022? Determine the inventory turnover ratio for FY2022; if traditional inventory management practices are not applicable to the company, mention this and provide an explanation.",AES has converted inventory 9.5 times in FY 2022.,"To determine the inventory turnover ratio for AES Corporation for fiscal year 2022, we need:
+
+**Inventory Turnover Ratio = Cost of Goods Sold (COGS) / Average Inventory**
+
+From the documents:
+
+- **Cost of Sales (COGS) for 2022:** $10,069 million ([docid=AES_2022_10K_page_131])
+- **Inventory at Dec 31, 2022:** $1,055 million ([docid=AES_2022_10K_page_129])
+- **Inventory at Dec 31, 2021:** $604 million ([docid=AES_2022_10K_page_129])
+- **Average Inventory:** (1,055 + 604) / 2 = $829.5 million
+
+**Calculation:**
+
+Inventory Turnover Ratio = $10,069 million / $829.5 million ≈ **12.14 times**
+
+**Interpretation:**
+AES Corporation turned over its inventory approximately **12 times** during fiscal year 2022.
+
+**Note:**  
+AES Corporation is primarily an electric utility and power generation company. Traditional inventory management practices (such as those for manufacturing or retail companies) may not be fully applicable, since much of its inventory may consist of fuel, spare parts, and supplies rather than finished goods for sale. However, the calculation above follows standard financial analysis using the available data.
+
+**Summary:**  
+AES Corporation's inventory turnover ratio for FY2022 is approximately **12 times**. While traditional inventory turnover analysis may not be fully relevant due to the nature of its business, this ratio provides a general sense of how frequently inventory was used or replaced during the year.",no,
+financebench,financebench_101,C-AC-LC,"As an investment analyst relying solely on the balance sheet, could you determine Lockheed Martin’s net working capital for fiscal year 2021, calculated as total current assets minus total current liabilities? Please provide your answer in millions of US dollars.","$5,818.00 ","The amount of the gain accruing to Johnson & Johnson as a result of the separation of its Consumer Health business segment, as of August 30, 2023, is approximately $20 billion.",no,
+financebench,financebench_5,C-AC-LC,"Is 3M's liquidity position for Q2 FY2023 adequately strong as indicated by its quick ratio? If the quick ratio is not an appropriate metric for assessing liquidity, please clarify and provide your reasoning.","No. The quick ratio for 3M was 0.96 by Jun'23 close, which needs a bit of an improvement to touch the 1x mark","To assess 3M's liquidity position for Q2 FY2023 using the quick ratio, we need to calculate the quick ratio using the data provided:
+
+**Quick Ratio Formula:**  
+Quick Ratio = (Cash and Cash Equivalents + Marketable Securities + Accounts Receivable) / Current Liabilities
+
+From the [docid=3M_2023Q2_10Q_page_4]:
+
+- Cash and cash equivalents: $4,258 million
+- Marketable securities: $56 million
+- Accounts receivable (net): $4,947 million
+- Current liabilities: $10,936 million
+
+Plugging in the numbers:
+
+Quick Assets = $4,258 + $56 + $4,947 = $9,261 million  
+Current Liabilities = $10,936 million
+
+Quick Ratio = $9,261 / $10,936 ≈ **0.85**
+
+**Interpretation:**  
+A quick ratio of 1.0 or higher is generally considered strong, as it indicates the company can cover its current liabilities with its most liquid assets (excluding inventory). 3M's quick ratio of 0.85 suggests that, as of June 30, 2023, it does **not** have enough quick assets to fully cover its current liabilities. This may indicate a less-than-strong liquidity position by this metric.
+
+**Is the quick ratio appropriate?**  
+The quick ratio is a standard and widely accepted measure of short-term liquidity, especially for assessing a company's ability to meet its short-term obligations without relying on the sale of inventory. Unless there is a specific reason to believe that 3M's inventory is highly liquid (which is not indicated in the provided document), the quick ratio is an appropriate metric for this assessment.
+
+**Conclusion:**  
+3M's liquidity position for Q2 FY2023, as indicated by its quick ratio of 0.85, is **not adequately strong** by conventional standards. The quick ratio is an appropriate metric for assessing liquidity in this context.",yes,
+financebench,financebench_2,HGC-LC,"Based on FY2022 figures, does 3M operate as a capital-intensive company?","No, the company is managing its CAPEX and Fixed Assets pretty efficiently, which is evident from below key metrics:
+CAPEX/Revenue Ratio: 5.1%
+Fixed assets/Total Assets: 20%
+Return on Assets= 12.4%","Based on the FY2022 figures, 3M does operate as a capital-intensive company. Here’s the supporting evidence from the documents:
+
+- **Property, Plant, and Equipment (PP&E):** As of December 31, 2022, 3M reported gross PP&E of $25,998 million and net PP&E of $9,178 million after accumulated depreciation [docid=3M_2022_10K_page_49]. This is a significant portion of their total assets ($46,455 million), indicating substantial investment in physical assets.
+- **Capital Expenditures:** In 2022, 3M spent $1,749 million on purchases of property, plant, and equipment [docid=3M_2022_10K_page_51]. This level of annual capital spending is high relative to many non-capital-intensive industries.
+- **Depreciation and Amortization:** 3M recorded $1,831 million in depreciation and amortization expense in 2022 [docid=3M_2022_10K_page_51], further reflecting the large base of capital assets.
+
+These figures demonstrate that 3M requires significant ongoing investment in physical assets to operate its business, which is characteristic of a capital-intensive company.
+
+**Conclusion:**  
+Yes, based on FY2022 figures, 3M operates as a capital-intensive company.",no,
+financebench,financebench_90,C-AC-LC,"From August 30, 2023, which Johnson & Johnson business segment will be classified as a discontinued operation?","The Consumer Health business segment will be treated as a discontinued operation from August 30, 2023 onward.","To determine if Best Buy's gross margins are historically consistent, we need to calculate the gross margin for each fiscal year using the formula:
+
+**Gross Margin (%) = (Gross Profit / Revenue) x 100**
+
+From the document:
+
+- **2023:**  
+  Gross Profit = $9,912 million  
+  Revenue = $46,298 million  
+  Gross Margin = (9,912 / 46,298) x 100 ≈ **21.4%**
+
+- **2022:**  
+  Gross Profit = $11,640 million  
+  Revenue = $51,761 million  
+  Gross Margin = (11,640 / 51,761) x 100 ≈ **22.5%**
+
+- **2021:**  
+  Gross Profit = $10,573 million  
+  Revenue = $47,262 million  
+  Gross Margin = (10,573 / 47,262) x 100 ≈ **22.4%**
+
+**Year-to-year changes:**
+- 2021 to 2022: 22.4% → 22.5% (**+0.1%**)
+- 2022 to 2023: 22.5% → 21.4% (**-1.1%**)
+
+**Conclusion:**  
+Best Buy's gross margins have fluctuated by less than 2% each year over the past three fiscal years. Therefore, their gross margins are historically consistent.
+
+Gross margin is a relevant metric for a retailer like Best Buy, as it measures the profitability of their core business (selling products) before accounting for operating expenses. It is commonly used to assess the efficiency of retail operations.
+
+**Final Answer:**  
+Best Buy's gross margins are historically consistent, not fluctuating more than roughly 2% each year. Gross margin is a relevant metric for a company like Best Buy.",no,
+financebench,financebench_58,HGC-LC,"Based on the cash flow statement, determine the amount of cash flow from operating activities that Block (previously Square) produced during fiscal year 2020. Please provide your answer in millions of USD.",$382.00 ,Block (formerly known as Square) generated $381.6 million in cash flow from operating activities in FY2020.,no,
+financebench,financebench_139,C-AC-LC,What factors contributed to the rise in Ulta Beauty’s merchandise inventories at the close of fiscal year 2023?,"Increase in Merchandise inventories balance was driven by the opening of 47 new stores. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.","The answer is not present in the documents. The documents provide information about the factors contributing to the rise in Ulta Beauty’s merchandise inventories at the close of fiscal year 2022, but not fiscal year 2023.",no,
+financebench,financebench_130,C-HGC-LC,Was there an increase in Pfizer's PPNE from fiscal year 2020 to fiscal year 2021?,"Yes, change in PPNE was positive year over year","Yes, Pfizer grew its property, plant, and equipment (PPNE) between FY20 and FY21. According to the balance sheet:
+
+- FY20: $13,745 million
+- FY21: $14,882 million
+
+This shows an increase in PPNE from 2020 to 2021.",yes,
+financebench,financebench_98,HGC-LC,"Based on VaR metrics, was JPM's risk exposure lower in Q2 2023 than it was during Q2 2022?",Yes. It decreased.,"Yes, the risk that JPMorgan faced in the second fiscal quarter of 2023, as measured by average total VaR, decreased compared to the same period in the prior year. According to the document, ""Average total VaR decreased by $7 million for the three months ended June 30, 2023, compared with the same period in the prior year predominantly driven by risk reductions impacting Credit Portfolio VaR as well as fixed income."" 
+
+Additionally, the table shows that average total VaR for the three months ended June 30, 2023 was $47 million, compared to $54 million for the three months ended June 30, 2022.",yes,
+financebench,financebench_38,AC-LC,"As of 2022, what debt instruments are listed for trading on a national securities exchange under the American Express name?",There are none,I don't know.,no,
+financebench,financebench_109,C-HGC-LC,What category of debt had the highest allocation within MGM's short-term investments during the first half of fiscal year 2023?,the biggest short term investment is in corporate bonds (almost 82% of the total investment),"The category of debt with the highest allocation within MGM's short-term investments during the first half of fiscal year 2023 was **corporate bonds**, with a balance of $416,420,000 as of June 30, 2023.",yes,
+financebench,financebench_97,AC-LC,Which JPMorgan business division reported the greatest net income in the second quarter of 2022?,Corporate & Investment Bank. Its net income was $3725 million.,"In 2022 Q2, JPMorgan's Corporate & Investment Bank segment had the highest net income, with $3,725 million.",yes,
+financebench,financebench_140,C-HGC-LC,"During the fourth quarter of fiscal year 2023, what proportion of Ulta Beauty's overall stock buyback expenditure for FY 2023 was spent?","36%. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",I don't know.,no,
+financebench,financebench_78,C-HGC-LC,Did CVS Health distribute dividends to its common shareholders during the second quarter of fiscal year 2022?,"Yes, CVS paid a $ 0.55 dividend per share every quarter in FY2022","Yes, CVS Health paid dividends to common shareholders in Q2 of FY2022. The document states that during 2022, the quarterly cash dividend was $0.55 per share, and CVS Health Corporation has paid cash dividends every quarter since becoming a public company.",yes,
+qasper_rag,1604.08504_q2,AC-RAG,How do they detect spammers?,Extract features from the LDA model and use them in a binary classification task,"They detect spammers by extracting topic-based features from users' historical tweets. Specifically, they use the Latent Dirichlet Allocation (LDA) model to compute the topic distribution for each user. Based on the topic probabilities, they extract two features:
+
+1. **Local Outlier Standard Score (LOSS):** Captures the user's interests on different topics (local information).
+2. **Global Outlier Standard Score (GOSS):** Reveals the user's interests on specific topics in comparison with other users (global information).
+
+These features are then used to distinguish spammers (including ""smart"" spammers who mimic legitimate users) from legitimate users. The method is validated on both a public dataset (Social Honeypot) and a self-collected Weibo dataset, showing that the combination of LOSS and GOSS can effectively detect spammers by analyzing differences in topic distribution patterns.",yes,
+qasper_rag,1806.04511_q2,AC-RAG,what datasets were used in evaluation?,"SemEval-2016 Challenge Task 5 BIBREF27 , BIBREF28","The datasets used for evaluation are:
+
+- CNN/DailyMail news highlights dataset
+- New York Times Annotated Corpus (NYT)
+- XSum",no,
+qasper_rag,1912.01214_q0,C-HGC-RAG,which multilingual approaches do they compare with?,BIBREF19 BIBREF20,"They compare their cross-lingual pre-training based transfer approach with the following multilingual approaches:
+
+- Pivoting (translating source to pivot then to target in two steps)
+- Multilingual NMT (MNMT) [BIBREF19]
+- Cross-lingual transfer without pretraining [BIBREF16]
+
+Additionally, they mention comparisons with pivoting$_{\rm m}$ (which uses MNMT for pivoting) and the original supervised Transformer.",no,
+qasper_rag,1712.05608_q0,AC-RAG,Which models/frameworks do they compare to?,MLP,"Based on the provided passages, the models/frameworks that they compare to are:
+
+- MLP (Multilayer Perceptron): Used as the base classifier and as a comparison baseline for the proposed s2sL approach in both balanced and imbalanced data scenarios. ([docid=qasper_1712.05608_sec_3], [docid=qasper_1712.05608_sec_5])
+- Eusboost: A state-of-the-art method for imbalanced data classification, used for comparison in the Anger/Happy emotion classification task. ([docid=qasper_1712.05608_sec_5])
+- MWMOTE: Another state-of-the-art method for imbalanced data classification, also used for comparison in the Anger/Happy emotion classification task. ([docid=qasper_1712.05608_sec_5])
+
+Therefore, the models/frameworks they compare to are MLP, Eusboost, and MWMOTE.",yes,
+qasper_rag,1909.06200_q4,AC-RAG,"Who judged the irony accuracy, sentiment preservation and content preservation?",Irony accuracy is judged only by human ; senriment preservation and content preservation are judged  both by human and using automatic metrics (ACC and BLEU).,"Four annotators who are proficient in English judged the irony accuracy, sentiment preservation, and content preservation.",yes,
+qasper_rag,1906.01081_q1,AC-RAG,How many people participated in their evaluation study of table-to-text models?,about 500,Around 500 different workers were involved in the annotation.,yes,
+qasper_rag,1810.12085_q2,C-HGC-RAG,what datasets were used?,MIMIC-III,"The dataset used was MIMIC-III, a freely available, deidentified database containing electronic health records of patients admitted to an Intensive Care Unit (ICU) at Beth Israel Deaconess Medical Center between 2001 and 2012. Specifically, the analyses focused on the discharge summaries and associated notes from this database.",yes,
+qasper_rag,1910.03634_q4,AC-RAG,How big is English poem description of the painting dataset?,UNANSWERABLE,I don't know.,yes,
+qasper_rag,1808.03738_q1,C-HGC-RAG,Where does the ancient Chinese dataset come from?,ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that era,The ancient Chinese dataset comes from ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that era. These sources were collected from the internet.,yes,
+qasper_rag,1909.00175_q0,HGC-RAG,What state-of-the-art results are achieved?,"F1 score of 92.19 on homographic pun detection, 80.19 on homographic pun location, 89.76 on heterographic pun detection.","Our model with the INLINEFORM0 tagging scheme yields new state-of-the-art INLINEFORM1 scores on pun detection and competitive results on pun location, compared to baselines that do not adopt joint learning in the first block. Compared to CRF, our model, either with the INLINEFORM2 or the INLINEFORM3 scheme, yields significantly higher recall on both detection and location tasks, while the precisions are relatively close. This demonstrates the effectiveness of BiLSTM, which learns the contextual features of given texts and helps recall more puns.
+
+Compared to the INLINEFORM0 scheme, the INLINEFORM1 tagging scheme is able to yield better performance on both pun detection and location tasks. The results for this approach are significantly better than the approach based on the INLINEFORM6 tagging scheme, as observed from the table.
+
+In summary, the model achieves new state-of-the-art scores on pun detection and competitive results on pun location, with significantly higher recall than previous CRF-based baselines.",no,
+qasper_rag,1801.06482_q0,HGC-RAG,What were their performance results?,best model achieves 0.94 F1 score for Wikipedia and Twitter datasets and 0.95 F1 on Formspring dataset,"Based on the passages provided, here are the performance results reported:
+
+- **DNN Models vs. Traditional Models:**  
+  All DNN models (CNN, LSTM, BLSTM, BLSTM with attention) significantly outperformed traditional machine learning models (logistic regression, SVM, random forest, naive Bayes) for cyberbullying detection.
+
+- **Effect of Oversampling:**  
+  Oversampling the minority bullying class (replicating bullying posts three times) significantly improved the performance of all DNN models across all datasets, especially for the smallest dataset (Formspring).
+
+- **Effect of Word Embeddings:**  
+  The choice of initial word embeddings (random, GloVe, SSWE) did not have a significant effect on performance when oversampling was used.
+
+- **Transfer Learning Results:**  
+  - **Complete Transfer Learning (TL1):** Directly using a model trained on one dataset for another resulted in low recall but relatively higher precision. For example, using Wikipedia as the base model for Formspring gave precision = 0.51 and recall = 0.66; using Twitter as the base model for Formspring gave precision = 0.38 and recall = 0.04.
+  - **Feature Level Transfer Learning (TL2):** Transferring only learned word embeddings led to dramatic improvements in recall and significant improvements in precision compared to TL1.
+  - **Model Level Transfer Learning (TL3):** Transferring both word embeddings and network weights did not significantly improve over TL2, indicating that learned word embeddings are the key transferable knowledge.
+
+- **Best Results Achieved:**  
+  Using BLSTM with attention and feature level transfer learning (TL2), the following F1 scores were achieved:
+  - **Wikipedia:** F1 score = 0.94 (previous best was 0.68)
+  - **Twitter:** F1 score = 0.94 (previous best was 0.93)
+  - **Formspring:** F1 score = 0.95 with accuracy = 98% (previously reported accuracy was 78.5%; F1 score not previously reported)
+
+**Summary Table of Best Results:**
+
+| Dataset    | Previous Best F1 | This Work F1 | This Work Accuracy |
+|------------|------------------|--------------|-------------------|
+| Wikipedia  | 0.68             | 0.94         | -                 |
+| Twitter    | 0.93             | 0.94         | -                 |
+| Formspring | - (accuracy 78.5%)| 0.95         | 98%               |
+
+**Other Observations:**
+- The performance gap between the simplest (CNN) and most complex (BLSTM with attention) DNN models reduces as dataset size increases.
+- LSTM generally performed weaker than the other DNN models.
+
+**Conclusion:**  
+DNN-based models, especially BLSTM with attention and feature-level transfer learning, achieved state-of-the-art results for cyberbullying detection across multiple datasets, with F1 scores of 0.94–0.95 and significant improvements over previous methods. Oversampling and transfer of learned word embeddings were key factors in this performance.",yes,
+qasper_rag,1903.07406_q2,HGC-RAG,What features are used?,UNANSWERABLE,The features used are TF-IDF features extracted from the text content of pathology reports.,no,
+qasper_rag,1701.05574_q2,HGC-RAG,What kind of stylistic features are obtained?,UNANSWERABLE,"The passages do not mention any stylistic features being obtained. The features described include lexical features, implicit and explicit incongruity features, readability, word count, and cognitive features derived from eye-movement data (such as fixations, saccades, skips, regressions, and features from saliency graphs). Stylistic features are not specifically discussed.
+
+Final answer: I don't know.",yes,
+qasper_rag,1910.05603_q2,C-HGC-RAG,What is the language model combination technique used in the paper?,system combination on the decoding lattice level combination weights,"The language model combination technique used in the paper involves training multiple n-gram language models optimized for different domains and then combining them based on perplexity calculated on a small text of the target domain. In decoding, system combination is performed at the decoding lattice level, where different language models (such as a general language model and a conversation language model) are combined with specific weights to optimize performance for the test set. For example, the best results were achieved by assigning weights of 0.6:0.4 (general:conversation) for one test set and 0.7:0.3 for another. This approach allows the system to leverage the strengths of each domain-specific language model to reduce word error rate (WER).
+
+(Source: [docid=qasper_1910.05603_sec_3], [docid=qasper_1910.05603_sec_9], [docid=qasper_1910.05603_sec_10])",yes,
+qasper_rag,1908.05828_q4,HGC-RAG,Which machine learning models do they explore?,BiLSTM BiLSTM-CNN BiLSTM-CRF BiLSTM-CNN-CRF,"The passages indicate that the following machine learning models are explored:
+
+- Support Vector Machine (SVM)
+- Hidden Markov Model (HMM)
+- Convolutional Neural Network (CNN)
+- Recurrent Neural Network (RNN)
+- Long Short-Term Memory (LSTM)
+- Gated Recurrent Unit (GRU)
+- Bidirectional LSTM (BiLSTM)
+- BiLSTM+CNN
+- BiLSTM+CRF
+- BiLSTM+CNN+CRF
+- Stanford CRF model
+
+These models are compared and evaluated for the Nepali Named Entity Recognition (NER) task.",yes,
+qasper_rag,1701.05574_q2,C-AC-RAG,What kind of stylistic features are obtained?,UNANSWERABLE,"The passages do not mention ""stylistic features"" specifically. They describe features used for sarcasm detection, such as lexical features, implicit and explicit incongruity features, readability, word count, and cognitive features derived from eye-movement data (like fixations, saccades, skips, regressions, and features from saliency graphs). However, there is no explicit mention of ""stylistic features"" or what kind of stylistic features are obtained.
+
+Final answer: I don't know.",yes,
+qasper_rag,1601.02403_q0,AC-RAG,Do they report results only on English data?,yes,I don't know.,no,
+qasper_rag,1611.03599_q4,C-AC-RAG,Did they collected the two datasets?,no,"Based on the provided passages, the answer is:
+
+No, they did not collect both datasets themselves. The FBFans dataset is described as ""a privately-owned, single-topic, Chinese, unbalanced, social media dataset,"" and the passage states, ""The FBFans dataset contains data from anti-nuclear-power Chinese Facebook fan groups from September 2013 to August 2014..."" This suggests the authors had access to and used this dataset, but it does not explicitly state that they collected it themselves.
+
+For the CreateDebate dataset, the passage says, ""CreateDebate is a public, multiple-topic, English, balanced, forum dataset,"" and ""The CreateDebate dataset was collected from an English online debate forum discussing four topics..."" This wording (""was collected"") could imply that the authors collected it, but it could also mean they used an existing dataset.
+
+There is no explicit statement in the passages that the authors themselves collected both datasets.
+
+Final answer:  
+I don't know.",no,
+qasper_rag,1911.07555_q1,HGC-RAG,Is the lexicon the same for all languages?,yes,"Based on the provided passages, the answer is:
+
+I don't know.
+
+The passages describe the use of a lexicon in the proposed LID algorithm and mention that ""the lexicon is built over all the data and therefore includes the vocabulary from both the training and testing sets"" ([docid=qasper_1911.07555_sec_2]). However, they do not explicitly state whether the lexicon is the same for all languages or if there are separate lexicons for each language.",no,
+qasper_rag,1804.11346_q3,C-AC-RAG,How long are the essays on average?,204 tokens,"The passages do not provide the exact average length of the essays, but they state that most texts range roughly from 150 to 250 tokens.",yes,
+qasper_rag,1912.03804_q1,AC-RAG,What conclusions do the authors draw from their finding that the emotional appeal of ISIS and Catholic materials are similar?,"both corpuses used words that aim to inspire readers while avoiding fear actual words that lead to these effects are very different in the two contexts our findings indicate that, using proper methods, automated analysis of large bodies of textual data can provide novel insight insight into extremist propaganda",,no,
+qasper_rag,1910.08293_q0,C-AC-RAG,How many different characters were in dataset?,"45,821 characters","The dataset contains dialogues from 327 major characters.
+
+(Source: [docid=qasper_1910.08293_sec_10]: ""we collect dialogues from 327 major characters (a subset of the 45,821 characters we have HLA data for) in 38 TV shows..."")",no,
+qasper_rag,1611.03599_q4,C-HGC-RAG,Did they collected the two datasets?,no,"Based on the provided passages, the authors did not collect both datasets themselves. Specifically:
+
+- The FBFans dataset is described as ""a privately-owned, single-topic, Chinese, unbalanced, social media dataset."" The passage states, ""The FBFans dataset contains data from anti-nuclear-power Chinese Facebook fan groups from September 2013 to August 2014..."" but does not explicitly say the authors collected it themselves, only that it is privately owned.
+- The CreateDebate dataset is described as ""a public, multiple-topic, English, balanced, forum dataset."" The passage says, ""The CreateDebate dataset was collected from an English online debate forum..."" but does not specify who collected it.
+
+There is no explicit statement in the passages that the authors themselves collected either dataset.
+
+Final answer: I don't know.",no,
+qasper_rag,1806.11432_q0,HGC-RAG,What are the user-defined keywords?,Words that a user wants them to appear in the generated output.,"The user-defined keywords are words specified by the user that they desire to be included in the generated output. For example, the keywords could be ""subway"" and ""manhattan"". 
+
+(Source: [docid=qasper_1806.11432_sec_5])",yes,
+qasper_rag,1908.11047_q2,C-HGC-RAG,What are the black-box probes used?,"CCG Supertagging CCGBank , PTB part-of-speech tagging, EWT part-of-speech tagging,
+Chunking, Named Entity Recognition, Semantic Tagging, Grammar Error Detection, Preposition Supersense Role, Preposition Supersense Function, Event Factuality Detection","The black-box probes used include:
+
+- CCG supertagging
+- Part-of-speech tagging from PTB and EWT (Universal Dependencies)
+- Named entity recognition
+- Base-phrase chunking
+- Grammar error detection
+- Semantic tagging
+- Preposition supersense identification
+- Event factuality detection
+
+(Metrics and references for each are summarized in Table TABREF27.)",yes,
+qasper_rag,1806.11432_q3,AC-RAG,What is the size of the Airbnb?,"roughly 40,000 Manhattan listings",I don't know.,no,
+qasper_rag,1908.11047_q2,C-AC-RAG,What are the black-box probes used?,"CCG Supertagging CCGBank , PTB part-of-speech tagging, EWT part-of-speech tagging,
+Chunking, Named Entity Recognition, Semantic Tagging, Grammar Error Detection, Preposition Supersense Role, Preposition Supersense Function, Event Factuality Detection","The black-box probes used include:
+
+- CCG supertagging
+- Part-of-speech tagging from PTB and EWT (Universal Dependencies)
+- Named entity recognition
+- Base-phrase chunking
+- Grammar error detection
+- Semantic tagging
+- Preposition supersense identification
+- Event factuality detection
+
+(Metrics and references for each are summarized in Table TABREF27.)",yes,
+qasper_rag,1712.05608_q0,C-AC-RAG,Which models/frameworks do they compare to?,MLP,"Based on the provided passages, the models/frameworks that they compare to are:
+
+- MLP (Multilayer Perceptron): The most commonly used feed forward neural network, used as a baseline classifier.
+- Eusboost: A state-of-the-art method for imbalanced data classification.
+- MWMOTE: Another state-of-the-art technique for imbalanced data set learning.
+
+These comparisons are made for tasks such as Speech/Music discrimination and emotion classification (including imbalanced data scenarios).
+
+References:
+- [docid=qasper_1712.05608_sec_5]: ""Table TABREF14 show the results obtained for proposed s2sL approach in comparison to that of MLP for the tasks of Speech/Music and Neutral/Sad classification... state-of-the-art methods i.e., Eusboost [22] and MWMOTE [23] are also considered for comparison.""
+- [docid=qasper_1712.05608_sec_3]: ""MLP, the most commonly used feed forward neural network, is considered as the base classifier to validate our proposed s2s framework.""",yes,
+qasper_rag,1904.10503_q0,HGC-RAG,Which other approaches do they compare their model with?,"Akbik et al. (2018), Link et al. (2012)","Based on the passages, the model is compared with existing systems for fine-grained named entity classification, including:
+
+- Ling et al. (ling2012fine): Used 112 overlapping labels with a linear classifier perceptron for multi-label classification.
+- Yosef et al. (spaniol2012hyena): Used multiple binary SVM classifiers to assign entities to a set of 505 types.
+- Gillick et al. (gillick2014context): Introduced context dependent FgNER and proposed heuristics for pruning labels.
+- Yogatama et al. (yogatama2015embedding): Proposed an embedding based model for information sharing among labels.
+- Shimaoka et al. (shimaoka2016attentive): Proposed an attentive neural network model using LSTMs and attention mechanisms.
+
+Additionally, the model is compared on the Wiki(gold) dataset with existing systems, but specific names of those systems are not provided in the passages.
+
+Therefore, the approaches compared include the above-mentioned models for fine-grained named entity recognition.",no,
+qasper_rag,1910.14537_q1,C-AC-RAG,How does Gaussian-masked directional multi-head attention works?,pays attentions to adjacent characters and casts a localness relationship between the characters as a fixed Gaussian weight assuming the weight relies on the distance between characters,"Gaussian-masked directional multi-head attention works as follows:
+
+- **Base Mechanism**: It is a variant of the standard scaled dot-product attention used in Transformers. In standard attention, the relationship between queries and keys is computed without considering their positions or distances in the sequence.
+
+- **Gaussian Mask**: Gaussian-masked attention introduces a Gaussian weight matrix $G$, where each element $g_{ij}$ represents the weight between character $i$ and $j$ based on their distance. The weight is highest (1) when the distance is zero and decreases as the distance increases, following a Gaussian distribution. This means adjacent characters have higher influence on each other.
+
+- **Directional Mask**: To capture directionality (forward and backward context), triangular masks are applied to the attention scores, so the model can focus on either past or future positions, or both, depending on the encoder (forward, backward, or central).
+
+- **Combining Masks with Attention**: The Gaussian weight matrix $G$ is combined with the standard attention score matrix (from $QK^T$) using the Hadamard (element-wise) product. This ensures that attention between distant characters is reduced, and attention between adjacent characters is emphasized.
+
+- **Multi-Head Structure**: Like standard multi-head attention, the mechanism splits the input into multiple heads, each with its own parameter matrices, to capture information from different representation subspaces.
+
+- **Purpose**: This approach allows the model to explicitly encode localness (importance of adjacent characters) and directional information, which is especially useful for tasks like Chinese Word Segmentation (CWS), where the relationship between adjacent characters is crucial.
+
+In summary, Gaussian-masked directional multi-head attention modifies standard self-attention by applying a Gaussian mask based on character distance and a directional mask, then combines these with multi-head attention to better capture local and directional dependencies in sequences.",yes,
+qasper_rag,2002.01664_q0,C-AC-RAG,How was the audio data gathered?,Through the All India Radio new channel where actors read news.,"The audio data was collected and curated from the All India Radio news channel, where an actor reads news for about 5-10 minutes. Data was crawled from 2010 to 2019 to cover many speakers for the dataset.",yes,
+qasper_rag,1911.06118_q0,C-HGC-RAG,What are the qualitative experiments performed on benchmark datasets?,"Spearman correlation values of GM_KL model evaluated on the benchmark word similarity datasets.
+Evaluation results of GM_KL model on the entailment datasets such as entailment pairs dataset created from WordNet, crowdsourced dataset of 79 semantic relations labelled as entailed or not and annotated distributionally similar nouns dataset.","The qualitative experiments performed on benchmark datasets are described in [docid=qasper_1911.06118_sec_4]. Specifically, Table TABREF9 shows qualitative results of the GM_KL model. In these experiments, given a query word and component id, the set of nearest neighbours along with their respective component ids are listed. For example:
+
+- The word 'plane' in its 0th component captures the 'geometry' sense, and its neighbours also reflect this sense; its 1st component captures the 'vehicle' sense, and the corresponding neighbours reflect this.
+- Other words such as 'rock' capture both the 'metal' and 'music' senses.
+- 'Star' captures 'celebrity' and 'astronomical' senses.
+- 'Phone' captures 'telephony' and 'internet' senses.
+
+These qualitative experiments demonstrate that the GM_KL model is able to capture multiple senses of polysemous words, with each component representing a distinct sense and its nearest neighbours reflecting that sense.",no,
+qasper_rag,1805.10824_q5,HGC-RAG,What semi-supervised learning is applied?,"first a model is trained on the training set and then this model is used to predict the labels of the silver data This silver data is then simply added to our training set, after which the model is retrained","The semi-supervised learning approach applied in the study involves the following steps:
+
+1. **Creation of Silver Data:** The DISC BIBREF0 corpus, which contains tweets queried by emotion-related words, was used. Since the specific emotion labels were not public, the researchers automatically assigned tweets to emotions by identifying the most frequent emotion-indicative words in the DISC corpus compared to their own scraped tweets. Words not clearly indicating an emotion were removed, and the remaining words were annotated per emotion. Tweets containing these annotated emotion-words were assigned to the corresponding emotion, creating ""silver"" datasets per emotion.
+
+2. **Model Training and Label Prediction:** A model was first trained on the available labeled training set. This model was then used to predict labels for the silver data.
+
+3. **Quality Control:** To ensure the quality of the silver data, instead of using a single model, ten different models were trained to predict the labels of the silver instances. If the difference between the highest and lowest prediction for a silver instance did not exceed a certain threshold, the instance was kept; otherwise, it was discarded.
+
+4. **Augmenting Training Data:** The selected silver data was added to the original training set, and the model was retrained on this augmented dataset.
+
+5. **Parameter Optimization:** Two parameters were optimized: the threshold for prediction agreement and the number of silver instances to add.
+
+This semi-supervised method was applied to both LSTM and feed-forward neural networks and was only applicable to the emotion intensity (EI) tasks, as only emotions were annotated in the silver data.
+
+**Summary:**  
+The semi-supervised learning applied involved automatically labeling additional tweets using emotion-indicative words, filtering these ""silver"" instances for quality using model agreement, and then augmenting the training data with these instances to retrain the models.",yes,
+qasper_rag,1610.09225_q1,C-HGC-RAG,What is the dimension of the embeddings?,300,The dimension of the embeddings is 300.,yes,
+qasper_rag,1707.03569_q1,C-AC-RAG,By how much did they improve?,They decrease MAE in 0.34,I don't know.,no,
+qasper_rag,1605.03481_q3,C-HGC-RAG,What other tasks do they test their method on?,None,I don't know.,no,
+qasper_rag,1912.01214_q0,AC-RAG,which multilingual approaches do they compare with?,BIBREF19 BIBREF20,"They compare their cross-lingual pre-training based transfer approach with the following multilingual approaches:
+
+- Pivoting (translating source to pivot then to target in two steps)
+- Multilingual NMT (MNMT) [BIBREF19]
+- Cross-lingual transfer without pretraining [BIBREF16]
+
+Additionally, they mention comparisons with pivoting$_{\rm m}$ (which uses MNMT for pivoting) and the original supervised Transformer.",no,
+qasper_rag,1910.14537_q2,AC-RAG,What is meant by closed test setting?,"closed test limits all the data for learning should not be beyond the given training set, while open test does not take this limitation","Closed test setting refers to an evaluation scenario where models are only allowed to use the given training dataset and are not permitted to use any external resources, such as pre-trained embeddings or language models. In the closed test setting, all features and resources must be derived from the provided data, ensuring a fair comparison between models based solely on the information available in the training set.
+
+(Source: [docid=qasper_1910.14537_sec_10])",yes,
+qasper_rag,1707.03569_q2,C-HGC-RAG,What dataset did they use?,high-quality datasets  from SemEval-2016 “Sentiment Analysis in Twitter” task,They used the high-quality datasets released by the organizers of the SemEval-2016 “Sentiment Analysis in Twitter” task for both ternary and fine-grained sentiment classification.,yes,
+qasper_rag,1703.07476_q0,AC-RAG,What datasets are used to assess the performance of the system?,Switchboard Telephone Speech Corpus BIBREF21 LORELEI (Low Resource Languages for Emergent Incidents) Program,"The datasets used to assess the performance of the system are:
+
+1. **Switchboard Telephone Speech Corpus**: Used for single-label topic classification experiments. It consists of two-sided telephone conversations, with development (dev) and evaluation (eval) data sets. The dev data has 360 conversation sides across six topics, and the eval data has 600 conversation sides across another six topics.
+
+2. **DARPA LORELEI Speech Corpora**: Used for multi-label topic identification. The corpora include speech data from three languages: Turkish, Uzbek, and Mandarin. Each corpus contains in-domain and out-of-domain speech segments, with in-domain segments labeled with 11 situation types and out-of-domain as a 12th topic.
+
+These datasets are used to evaluate the performance of UTD, AUD, and ASR-based systems for topic identification on speech.",yes,
+qasper_rag,1908.05828_q10,C-AC-RAG,What is the performance improvement of the grapheme-level representation model over the character-level model?,"On OurNepali test dataset Grapheme-level representation model achieves average 0.16% improvement, on ILPRL test dataset it achieves maximum 1.62% improvement","Based on the provided passages, the BiLSTM+CNN(grapheme-level) model performs on par with the BiLSTM+CNN(character-level) model under the same configuration. There is no reported performance improvement of the grapheme-level representation model over the character-level model; their scores are similar.
+
+Therefore, the answer is:  
+There is no performance improvement; the grapheme-level representation model performs on par with the character-level model.",no,
+qasper_rag,2002.02070_q3,C-AC-RAG,How big is dataset of car-speak language?,"$3,209$ reviews","The dataset contains 3,209 reviews about 553 different cars from 49 different car manufacturers.",yes,
+qasper_rag,1909.00015_q0,AC-RAG,What tasks are used for evaluation?,"four machine translation tasks: German -> English, Japanese -> English, Romanian -> English, English -> German","The tasks used for evaluation are WMT 2014 English → German (en→de), Romanian → English (ro→en), German → English (de→en), and Japanese → English (ja→en) translation tasks.",yes,
+qasper_rag,1910.09982_q1,AC-RAG,What dataset was used?,news articles in free-text format,"The dataset used was the Daily Mail news articles released by BIBREF9, which is composed of 219,506 articles covering a diverse range of topics including business, sports, travel, etc.",yes,
+qasper_rag,1909.00105_q4,HGC-RAG,How did they obtain the interactions?,from Food.com,"They obtained the interactions by scraping user-recipe interactions (reviews) from Food.com, covering a period of 18 years (January 2000 to December 2018).",yes,
+qasper_rag,1810.12196_q1,AC-RAG,What baselines are presented?,Logistic regression LSTM End-to-end memory networks Deep projective reader,"The baselines presented are:
+- Simple LSTM network
+- MemN2N
+- Logistic regression
+- Deep projective reader",yes,
+qasper_rag,1712.00991_q5,C-HGC-RAG,What is the average length of the sentences?,15.5,The average length of the sentences is 15.5 words.,yes,
+qasper_rag,1811.08603_q3,C-AC-RAG,Do they only use adjacent entity mentions or use more than that in some cases (next to adjacent)?,NCEL considers only adjacent mentions.,"Based on the passages, the method primarily uses adjacent mentions (neighbor mentions within a pre-defined window size) to support the topical coherence assumption efficiently. However, it is stated that:
+
+> ""A degraded case happens if [the window size] is large enough to cover the entire document, and the mentions used for global features become the same as the previous work...""
+
+This means that while the default and efficient approach is to use only adjacent mentions, it is possible (though less efficient) to use a larger window that includes more than just adjacent mentions—even up to all mentions in the document. In practice, they heuristically choose a window size much smaller than the total number of mentions for efficiency.
+
+**Therefore, they can use more than just adjacent mentions (including next-to-adjacent and beyond) in some cases, depending on the window size, but typically use only adjacent mentions for efficiency.**",no,
+qasper_rag,1908.06267_q2,C-AC-RAG,What is the state-of-the-art system?,doc2vec  CNN DAN Tree-LSTM DRNN LSTMN C-LSTM SPGK WMD S-WMD Semantic-CNN LSTM-GRNN HN-ATT,"The passages do not specify a single state-of-the-art system by name. They mention that MPAD (Message Passing Attention network for Document understanding) is ""competitive with the state-of-the-art"" and that it is evaluated against multiple state-of-the-art baseline models, but they do not state which system is the current state-of-the-art.
+
+**Answer:** I don't know.",no,
+qasper_rag,1901.10133_q2,C-AC-RAG,Do they release a data set?,no,I don't know.,no,

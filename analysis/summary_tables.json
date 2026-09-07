@@ -1,0 +1,478 @@
+{
+  "e1": {
+    "QASPER-Oracle": {
+      "ac_drop": -8.5,
+      "hgc_drop": -2.0,
+      "errors": 0
+    },
+    "FinanceBench-LC": {
+      "ac_drop": -15.333333333333343,
+      "hgc_drop": -0.6666666666666572,
+      "errors": 0
+    },
+    "QASPER-RAG": {
+      "ac_drop": -11.0,
+      "hgc_drop": -1.0,
+      "errors": 0
+    }
+  },
+  "e2": {
+    "QASPER-Oracle": {
+      "full G1+G2+G3": {
+        "clean": 58.5,
+        "contam": 56.5,
+        "drop": -2.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 15,
+          "g3_doc_unresolved": 0,
+          "g3_llm": 22
+        }
+      },
+      "G3 off (G1+G2)": {
+        "clean": 55.5,
+        "contam": 50.5,
+        "drop": -5.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 13,
+          "g3_doc_unresolved": 0,
+          "g3_llm": 0
+        }
+      },
+      "G2 off (G1+G3)": {
+        "clean": 58.0,
+        "contam": 57.0,
+        "drop": -1.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 0,
+          "g3_doc_unresolved": 15,
+          "g3_llm": 22
+        }
+      }
+    },
+    "FinanceBench-LC": {
+      "full G1+G2+G3": {
+        "clean": 85.33333333333333,
+        "contam": 84.66666666666667,
+        "drop": -0.6666666666666572,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 52,
+          "g3_doc_unresolved": 0,
+          "g3_llm": 52
+        }
+      },
+      "G3 off (G1+G2)": {
+        "clean": 88.0,
+        "contam": 74.0,
+        "drop": -14.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 30,
+          "g3_doc_unresolved": 0,
+          "g3_llm": 0
+        }
+      },
+      "G2 off (G1+G3)": {
+        "clean": 86.66666666666667,
+        "contam": 84.66666666666667,
+        "drop": -2.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 0,
+          "g3_doc_unresolved": 52,
+          "g3_llm": 55
+        }
+      }
+    },
+    "QASPER-RAG": {
+      "full G1+G2+G3": {
+        "clean": 58.5,
+        "contam": 57.5,
+        "drop": -1.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 43,
+          "g3_doc_unresolved": 0,
+          "g3_llm": 117
+        }
+      },
+      "G3 off (G1+G2)": {
+        "clean": 57.0,
+        "contam": 47.0,
+        "drop": -10.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 29,
+          "g3_doc_unresolved": 0,
+          "g3_llm": 0
+        }
+      },
+      "G2 off (G1+G3)": {
+        "clean": 56.5,
+        "contam": 57.5,
+        "drop": 1.0,
+        "stages": {
+          "g1_scope": 0,
+          "g2_docid": 0,
+          "g3_doc_unresolved": 42,
+          "g3_llm": 116
+        }
+      }
+    }
+  },
+  "e3": {
+    "tau=0.80": {
+      "cell": "QASPER-Oracle",
+      "clean": 61.0,
+      "contam": 60.0,
+      "drop": -1.0,
+      "gate_tokens": 40583
+    },
+    "tau=0.90": {
+      "cell": "QASPER-Oracle",
+      "clean": 58.5,
+      "contam": 58.0,
+      "drop": -0.5,
+      "gate_tokens": 13739
+    },
+    "k_h=1": {
+      "cell": "QASPER-Oracle",
+      "clean": 58.0,
+      "contam": 57.5,
+      "drop": -0.5,
+      "gate_tokens": 31450
+    },
+    "k_h=5": {
+      "cell": "QASPER-Oracle",
+      "clean": 58.5,
+      "contam": 57.5,
+      "drop": -1.0,
+      "gate_tokens": 30990
+    },
+    "containment=1": {
+      "cell": "QASPER-Oracle",
+      "clean": 59.5,
+      "contam": 58.0,
+      "drop": -1.5,
+      "gate_tokens": 31450
+    },
+    "containment=20": {
+      "cell": "QASPER-Oracle",
+      "clean": 58.0,
+      "contam": 58.0,
+      "drop": 0.0,
+      "gate_tokens": 31450
+    },
+    "max_doc=1000": {
+      "cell": "FinanceBench-LC",
+      "clean": 86.66666666666667,
+      "contam": 85.33333333333333,
+      "drop": -1.3333333333333428,
+      "gate_tokens": 85320
+    },
+    "max_doc=5000": {
+      "cell": "FinanceBench-LC",
+      "clean": 84.66666666666667,
+      "contam": 82.0,
+      "drop": -2.6666666666666714,
+      "gate_tokens": 132165
+    }
+  },
+  "e4": {
+    "QASPER-Oracle": {
+      "random_drop": -2.0,
+      "adaptive_drop": -8.0,
+      "wrong_random": "0/39",
+      "wrong_adaptive": "12/60",
+      "paths": {
+        "cache_miss": [
+          128,
+          45
+        ],
+        "cache_verified": [
+          60,
+          48
+        ],
+        "cache_fallback": [
+          12,
+          8
+        ]
+      },
+      "gate_tokens": 29708,
+      "gate_tokens_random": 30990,
+      "clean_dir": "base_qasper_oracle"
+    },
+    "FinanceBench-LC": {
+      "random_drop": -0.6666666666666572,
+      "adaptive_drop": -14.666666666666657,
+      "wrong_random": "0/59",
+      "wrong_adaptive": "23/92",
+      "paths": {
+        "cache_miss": [
+          43,
+          22
+        ],
+        "cache_verified": [
+          92,
+          69
+        ],
+        "cache_fallback": [
+          15,
+          15
+        ]
+      },
+      "gate_tokens": 108136,
+      "gate_tokens_random": 116910,
+      "clean_dir": "base_finbench_lc"
+    },
+    "QASPER-RAG": {
+      "random_drop": -1.0,
+      "adaptive_drop": -12.0,
+      "wrong_random": "7/74",
+      "wrong_adaptive": "25/103",
+      "paths": {
+        "cache_verified": [
+          103,
+          78
+        ],
+        "cache_miss": [
+          84,
+          7
+        ],
+        "cache_fallback": [
+          13,
+          8
+        ]
+      },
+      "gate_tokens": 97239,
+      "gate_tokens_random": 127467,
+      "clean_dir": "base_qasper_rag"
+    },
+    "BCP s=42 (rerun)": {
+      "random_drop": -4.0,
+      "adaptive_drop": -10.5,
+      "wrong_random": "0/69",
+      "wrong_adaptive": "18/99",
+      "paths": {
+        "cache_miss": [
+          67,
+          53
+        ],
+        "cache_hit_no_hint": [
+          25,
+          21
+        ],
+        "cache_verified": [
+          99,
+          81
+        ],
+        "cache_fallback": [
+          9,
+          4
+        ]
+      },
+      "gate_tokens": 45194,
+      "gate_tokens_random": 63630,
+      "clean_dir": "adaptive_bcp_s42"
+    }
+  },
+  "repairs": {
+    "no fast path / QASPER-Oracle": {
+      "drop": -4.0,
+      "accepted": 54,
+      "wrong": 7,
+      "clean_dir": "contoff_sens_qasper_oracle"
+    },
+    "no fast path / FinanceBench-LC": {
+      "drop": -4.0,
+      "accepted": 78,
+      "wrong": 8,
+      "clean_dir": "base_finbench_lc"
+    },
+    "answerhood predicate / QASPER-Oracle": {
+      "drop": -2.5,
+      "accepted": 55,
+      "wrong": 7,
+      "clean_dir": "pred_sens_qasper_oracle"
+    },
+    "answerhood predicate / FinanceBench-LC": {
+      "drop": -5.333333333333329,
+      "accepted": 68,
+      "wrong": 4,
+      "clean_dir": "base_finbench_lc"
+    },
+    "answerhood, fast path on / QASPER-Oracle": {
+      "drop": -5.5,
+      "accepted": 60,
+      "wrong": 12,
+      "clean_dir": "pred_sens_qasper_oracle"
+    },
+    "two-stage gate / QASPER-Oracle": {
+      "drop": -4.0,
+      "accepted": 48,
+      "wrong": 3,
+      "clean_dir": "twostage_sens_qasper_oracle"
+    },
+    "two-stage gate / FinanceBench-LC": {
+      "drop": -2.666666666666657,
+      "accepted": 72,
+      "wrong": 1,
+      "clean_dir": "twostage_sens_finbench_lc"
+    },
+    "two-stage gate / QASPER-RAG": {
+      "drop": -2.5,
+      "accepted": 84,
+      "wrong": 5,
+      "clean_dir": "twostage_sens_qasper_rag"
+    },
+    "two-stage gate / BCP s=42 (rerun)": {
+      "drop": -6.0,
+      "accepted": 71,
+      "wrong": 0,
+      "clean_dir": "twostage_sens_bcp_s42"
+    },
+    "two-stage, judge sees doc / QASPER-RAG": {
+      "drop": 0.0,
+      "accepted": 84,
+      "wrong": 6,
+      "clean_dir": "twostagedoc_qasper_rag"
+    },
+    "two-stage, judge sees doc / BCP s=42 (rerun)": {
+      "drop": -2.5,
+      "accepted": 43,
+      "wrong": 0,
+      "clean_dir": "twostagedoc_bcp_s42"
+    }
+  },
+  "twostage_acceptance": {
+    "QASPER-Oracle": {
+      "released_clean": [
+        59,
+        58
+      ],
+      "twostage_clean": [
+        59,
+        58
+      ],
+      "released_random": [
+        39,
+        39
+      ],
+      "twostage_random": [
+        39,
+        39
+      ]
+    },
+    "FinanceBench-LC": {
+      "released_clean": [
+        90,
+        89
+      ],
+      "twostage_clean": [
+        90,
+        89
+      ],
+      "released_random": [
+        59,
+        59
+      ],
+      "twostage_random": [
+        59,
+        59
+      ]
+    },
+    "QASPER-RAG": {
+      "released_clean": [
+        104,
+        97
+      ],
+      "twostage_clean": [
+        101,
+        96
+      ],
+      "released_random": [
+        74,
+        67
+      ],
+      "twostage_random": [
+        72,
+        66
+      ]
+    },
+    "BCP s=42 (rerun)": {
+      "released_clean": [
+        99,
+        99
+      ],
+      "twostage_clean": [
+        84,
+        84
+      ],
+      "released_random": [
+        69,
+        69
+      ],
+      "twostage_random": [
+        61,
+        61
+      ]
+    }
+  },
+  "clean_acceptance_doc": {
+    "QASPER-RAG": {
+      "released": {
+        "cache_verified": [
+          104,
+          97
+        ],
+        "gate_tokens": 123679,
+        "acc": 58.5
+      },
+      "two_stage": {
+        "cache_verified": [
+          101,
+          96
+        ],
+        "gate_tokens": 163406,
+        "acc": 59.5
+      },
+      "two_stage_doc": {
+        "cache_verified": [
+          97,
+          94
+        ],
+        "gate_tokens": 208156,
+        "acc": 57.0
+      }
+    },
+    "BCP s=42 (rerun)": {
+      "released": {
+        "cache_verified": [
+          99,
+          99
+        ],
+        "gate_tokens": 46973,
+        "acc": 90.0
+      },
+      "two_stage": {
+        "cache_verified": [
+          84,
+          84
+        ],
+        "gate_tokens": 90001,
+        "acc": 89.0
+      },
+      "two_stage_doc": {
+        "cache_verified": [
+          71,
+          71
+        ],
+        "gate_tokens": 188528,
+        "acc": 86.0
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "cell": "financebench-lc",
+  "observed_hits_in_run": 107,
+  "predicted_hits_at_085": 107,
+  "matches_run": true,
+  "boundary_queries_at_085": [
+    {
+      "query_id": "financebench_57",
+      "best_sim": 0.8506432175636292
+    },
+    {
+      "query_id": "financebench_86",
+      "best_sim": 0.8501061797142029
+    }
+  ],
+  "n_seeded": 124,
+  "n_queries": 150,
+  "best_sim_min": 0.40544188022613525,
+  "best_sim_median": 0.8904677629470825,
+  "best_sim_max": 0.9644615650177002,
+  "curve": [
+    {
+      "tau": 0.7,
+      "hits": 130,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.75,
+      "hits": 125,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.8,
+      "hits": 123,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.825,
+      "hits": 117,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.85,
+      "hits": 107,
+      "same_as_released": true
+    },
+    {
+      "tau": 0.875,
+      "hits": 96,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.9,
+      "hits": 64,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.925,
+      "hits": 22,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.95,
+      "hits": 4,
+      "same_as_released": false
+    }
+  ]
+}
