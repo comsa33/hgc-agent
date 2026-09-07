@@ -1,0 +1,51 @@
+query_id,gold_answer,predicted_answer,your_label,justification
+38,There are none,I don't know.,no,Confuses an explicit absence (None) with uncertainty (don't know).
+70,63.86,63.96,no,Numeric error introduced by decimal rounding.
+40,Performance is not measured through operating margin,...American Express has not shown an upward trend in its operating margin...,no,"Computes and assesses a trend, whereas the gold answer says the metric is inappropriate."
+92,JnJ realised $13.2 billion...,...$13.2 billion.,yes,Cash proceeds from the divestiture match exactly.
+9,1.90%,1.90%,yes,CapEx ratio matches.
+4,The consumer segment shrunk by 0.9% organically.,...working capital ratio...,no,Hallucinates a working-capital ratio for an entirely different company.
+88,"No, rate of growth... decelerate... 3.6%... to 3.5%...",...not projected to increase...,yes,Assessment that adjusted EPS growth slowed matches.
+46,$1832.00,...cash conversion cycle... -3.68 days.,no,Both the company and the metric are wrong (EBITDA vs CCC).
+139,Increase in Merchandise inventories... opening of 47 new stores.,I don't know.,no,Answered that the cause is unidentifiable.
+123,$9068.00,"$9,068 million",yes,Unadjusted EBITDA minus CapEx matches.
+31,Yes. The quick ratio is 1.57...,Quick Ratio = ... 1.57... Yes...,yes,Quick ratio and the liquidity-adequacy assessment both match.
+16,9.5 times,12.14,no,Inventory-turnover calculation does not match.
+104,7.90%,7.80%,no,Marked incorrect due to a rounding error in the calculation.
+139,Increase in Merchandise...,The answer is not present in the documents.,no,"Wrongly concludes the document lacks the information, unlike the gold answer."
+13,No the operating margins... declined from 36.8%... to 34.6%...,Among all of the derivative instruments that Verizon used...,no,Entirely wrong; answers about another company's derivatives.
+149,6.20%,6.20%,yes,EBITDA margin calculation matches.
+82,0.68,0.68,yes,Working-capital ratio calculation matches.
+112,5.40%,56.80%,no,EBITDA ratio calculation is far off.
+82,0.68,0.68,yes,Working-capital ratio matches.
+18,93.86,93.88,yes,DPO derivation matches within an acceptable approximation.
+100,1.33,1.33,yes,Asset-turnover calculation matches.
+79,Yes. She was previous CEO of Ulta Beauty...,Yes... Mary N. Dillon... CEO of Ulta Beauty...,yes,Matches on the CEO's prior experience at a comparable retailer.
+100,1.33,Entertainment performed the best...,no,Gives a wrong answer about one segment's revenue instead of asset turnover.
+138,Lower marketing expenses and leverage of incentive compensation...,...partially offset by deleverage of corporate overhead...,no,"Adds an offsetting factor absent from the gold answer, changing the causal account."
+68,39.70%,39.70%,yes,Cost-of-goods-sold ratio matches.
+18,93.86,93.92,no,DPO calculation is off; falls short of the gold figure.
+35,...operations...,...operating activities...,yes,Classification of the largest cash-inflow activity matches.
+66,"0.62%, compared to -14.76%...",0.62% ... -14.76%,yes,Year-over-year effective tax rate comparison matches exactly.
+110,$32780.00,"$32,780 million USD.",yes,Monetary figure matches exactly.
+66,"0.62%, compared to -14.76%...",The operating margin for AMD decreased...,no,Describes another company's (AMD) operating margin instead of the effective tax rate.
+128,Pepsico experienced a strong start to FY2023.,The key agenda of Amcor's 8-K filing...,no,Reports an unrelated contract announcement instead of the reason for the raised outlook.
+3,Operating Margin... decreased by 1.7%...,The operating income margin... decreased... 1.7 percentage points...,yes,Operating-margin decline and its main drivers both match.
+135,"Yes, it's spinning off Upjohn.",Yes... divest its early-stage rare disease gene therapy portfolio.,no,Misidentifies which core segment was divested.
+132,"Trillium, Array, and Therachon","Trillium, Array, Therachon",yes,All three acquisition targets match by name.
+134,Developed Rest of the World,"Unadjusted EBITDA = ... $1,832 million",no,Computes financials for the wrong company instead of the region with declining revenue.
+131,"Yes, the gain on completion of Consumer Healthcare JV Transaction",Yes... gain from the completion of the Consumer Healthcare JV transaction...,yes,Matches on the non-recurring event that raised net income.
+16,9.5 times,12.14 times,no,Inventory-turnover figure is off.
+101,$5818.00,...gain accruing to Johnson & Johnson... $20 billion.,no,Gives a competitor's divestiture proceeds instead of the requested company's metric.
+5,No. The quick ratio... 0.96...,...quick ratio of 0.85... not adequately strong...,yes,Reasoning that the metric falls short and liquidity is insufficient matches.
+2,No...,"Yes, based on FY2022 figures, 3M operates as a capital-intensive company.",no,Reads the metric as the opposite of the gold answer's not capital-intensive.
+90,The Consumer Health business segment...,...Best Buy's gross margins...,no,Reports another company's gross-margin trend instead of the divested discontinued operation.
+58,$382.00,$381.6 million,yes,Cash-flow amount matches at rounding precision.
+139,Increase in Merchandise inventories...,The answer is not present in the documents.,no,Fails to locate the cause of the inventory increase in the document.
+130,"Yes, change in PPNE was positive...","Yes, Pfizer grew its property, plant, and equipment...",yes,Assessment that fixed assets increased matches.
+98,Yes. It decreased.,Yes... decreased...,yes,Matches on whether VaR-measured risk exposure decreased.
+38,There are none,I don't know.,no,Confuses no instrument being listed (None) with not knowing.
+109,...corporate bonds...,...corporate bonds...,yes,Correctly identifies corporate bonds as the largest short-term investment allocation.
+97,Corporate & Investment Bank. Its net income was $3725 million.,"Corporate & Investment Bank... $3,725 million.",yes,Highest-earning segment and its net income both match exactly.
+140,36%.,I don't know.,no,Fails to identify the ratio.
+78,"Yes, CVS paid a $ 0.55 dividend...",Yes... $0.55 per share...,yes,Dividend payment and amount both match.

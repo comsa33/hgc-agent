@@ -1,0 +1,76 @@
+{
+  "cell": "bcp",
+  "observed_hits_in_run": 133,
+  "predicted_hits_at_085": 133,
+  "matches_run": true,
+  "boundary_queries_at_085": [
+    {
+      "query_id": "1223",
+      "best_sim": 0.8504672050476074
+    },
+    {
+      "query_id": "1243",
+      "best_sim": 0.8491277694702148
+    },
+    {
+      "query_id": "175",
+      "best_sim": 0.8493140935897827
+    },
+    {
+      "query_id": "638",
+      "best_sim": 0.8505766987800598
+    }
+  ],
+  "n_seeded": 161,
+  "n_queries": 200,
+  "best_sim_min": 0.31546756625175476,
+  "best_sim_median": 0.8748160600662231,
+  "best_sim_max": 0.9672839641571045,
+  "curve": [
+    {
+      "tau": 0.7,
+      "hits": 161,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.75,
+      "hits": 160,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.8,
+      "hits": 158,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.825,
+      "hits": 150,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.85,
+      "hits": 133,
+      "same_as_released": true
+    },
+    {
+      "tau": 0.875,
+      "hits": 100,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.9,
+      "hits": 53,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.925,
+      "hits": 20,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.95,
+      "hits": 3,
+      "same_as_released": false
+    }
+  ]
+}

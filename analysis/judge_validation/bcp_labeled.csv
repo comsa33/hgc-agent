@@ -1,0 +1,51 @@
+query_id,gold_answer,predicted_answer,your_label,justification
+1034,Nicholas Munene Mutuma,Nicholas Munene Mutuma,yes,Person name matches exactly.
+416,Hsiang Sing Naik,The name of the third individual... cannot be determined...,no,Gold names a person; the prediction declines to identify one.
+119,Josh,Josh,yes,Person name matches.
+1045,Aaron Trammell,Aaron Trammell,yes,Person name matches.
+675,Mathieu Flamini,Mathieu Flamini,yes,Person name matches.
+631,GHS 41.6 million,"Fan Milk PLC reported a net loss after tax of GH¢41,596,000...",yes,"Different unit of expression, numerically equivalent."
+632,"December, Nigeria",The country and month of birth... cannot be determined...,no,"Treated as unidentifiable, unlike the gold answer."
+1000,Matthew Arnum Barnor,Matthew Arnum Barnor,yes,Person name matches.
+1182,Naseeruddin Shah,Aircraft Technology Modeling and Assessment...,no,Returns an unrelated project name instead of a person's name.
+403,Sanatorio de la Trinidad,"The facility is only identified as ""a medical clinic in Buenos Aires""...",no,Omits the specific hospital named in the gold answer.
+635,404,324 hectares,no,Area figure does not match.
+896,Ian Athfield,Ian Athfield,yes,Person name matches.
+276,Ashley-Henry,The expedition was the Ashley-Henry (Upper Missouri) Expedition...,yes,Expedition name matches.
+826,Sunset at Biafra,Sunset in Biafra,no,A preposition difference (at vs in) yields a different title.
+1174,"Cinematography, 2012",Unable to definitively identify...,no,"Answers as unidentifiable, unlike the gold answer."
+154,"Heroes, Cowards, & Traitors...","Heroes, Cowards, & Traitors...",yes,Essay title matches.
+283,Zimri Elder,Zimri Eder,no,"Surname is misspelled, changing the referent."
+392,Bedford,Benjamin,no,Place name does not match.
+1182,Naseeruddin Shah,Naseeruddin Shah,yes,Person name matches.
+372,Reclus,Reclus,yes,Surname matches.
+228,Stanford University,Stanford University,yes,University name matches.
+392,Bedford,Benjamin,no,Place name does not match.
+315,"1,944","2,061 minutes",no,Figure in minutes differs.
+645,C29,Nonacosan-10-ol was identified...,no,Identifies a different chemical.
+180,blink-182,De La Soul,no,Band name does not match.
+501,Accelerated evolution of SARS-CoV-2...,Accelerated evolution of SARS-CoV-2...,yes,Paper title matches exactly.
+925,The Lip,"""Motor mouth Nene""...",no,The person's nickname does not match.
+843,Mathilda Bjarnehed,Mathilda Bjarnehed,yes,Person name matches.
+1012,22 September 2023,Tweentrepreneurs,no,Gives the title instead of the release date.
+1037,Joseph Robbie,DOI: 10.5812/ijpbs.62774,no,Returns a DOI instead of a person's name.
+132,World Of The Dream Merchants,The World Of The Dream Merchants,yes,Differs only by an article; semantically identical.
+934,Pirouette,Daniel Goleman,no,Gives a character name rather than the episode title.
+895,"Martini, wife",...likely through an associate or contemporary named Tom...,no,The associated name differs (Martini vs Tom).
+403,Sanatorio de la Trinidad,The facility referenced is a medical clinic in Buenos Aires...,no,Omits the specific hospital name.
+1230,Gertrude Pownall,Gertrude Pownall,yes,Person name matches.
+1211,20 tantos,20 tantos,yes,Programme title matches.
+124,Magic Mommy Stories,...cannot be determined with certainty.,no,Fails to identify the book series.
+12,Kanaria; seven,Suigintou; 3,no,Both the character name and the count differ.
+666,Michael Caine,Michael Caine,yes,Person name matches.
+493,Asamoah Gyan,Asamoah Gyan,yes,Person name matches.
+787,Emmanuel Kwesi Danso Arthur Junior,Emmanuel Kwesi Danso Arthur Junior,yes,Person name matches precisely.
+786,Kiran Shah,Marie of Romania...,no,Refers to an entirely different person.
+12,Kanaria; seven,Clare Wigfall,no,Character name differs.
+1012,22 September 2023,22 September 2023,yes,Date matches.
+18,Lillian Karabaic,Nathan Jones,no,Person name differs.
+1207,Ramo,Ramo,yes,Programme title matches.
+124,Magic Mommy Stories,Magic Mommy Stories,yes,Book series name matches.
+416,Hsiang Sing Naik,Unable to determine...,no,"Treated as unidentifiable, unlike the gold answer."
+297,Insomnia,Insomnia (2002),yes,Film title is the same apart from an added release year.
+389,Benedict Timothy Carlton Cumberbatch,Benedict Cumberbatch,yes,A commonly used name for the same person; semantically equivalent.

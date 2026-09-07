@@ -1,0 +1,58 @@
+[project]
+name = "hgc"
+version = "0.1.0"
+description = "HGC: Hint-Gated Cache for Contamination-Resilient Information-Seeking LLM Agents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Ruo Lee", email = "comsa333@gmail.com" }]
+
+dependencies = [
+    # Agent frameworks
+    "dspy>=3.0.0",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-community>=0.3.0",
+    "langchain-core>=0.3.0",
+    "faiss-cpu>=1.9.0",
+    # LLM APIs
+    "openai>=1.50.0",
+    "azure-identity>=1.19.0",
+    # Memory baseline
+    "mem0ai>=0.1.0",
+    # Data
+    "datasets<3.0", # HuggingFace datasets for QASPER, FinanceBench
+    "numpy>=2.0.0",
+    "pydantic>=2.9.0",
+    # Misc
+    "tqdm>=4.67.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.0.0",
+    "pytest-asyncio>=1.0.0",
+    "ruff>=0.13.0",
+    "pre-commit>=4.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hgc"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP"]
+ignore = ["E501"]  # handled by formatter
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "strict"
+pythonpath = ["src"]

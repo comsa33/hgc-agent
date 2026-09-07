@@ -1,0 +1,59 @@
+{
+  "cell": "qasper-rag",
+  "observed_hits_in_run": 116,
+  "predicted_hits_at_085": 116,
+  "matches_run": true,
+  "boundary_queries_at_085": [],
+  "n_seeded": 107,
+  "n_queries": 200,
+  "best_sim_min": 0.28662607073783875,
+  "best_sim_median": 0.9999993443489075,
+  "best_sim_max": 1.0000011920928955,
+  "curve": [
+    {
+      "tau": 0.7,
+      "hits": 124,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.75,
+      "hits": 119,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.8,
+      "hits": 118,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.825,
+      "hits": 117,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.85,
+      "hits": 116,
+      "same_as_released": true
+    },
+    {
+      "tau": 0.875,
+      "hits": 115,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.9,
+      "hits": 114,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.925,
+      "hits": 113,
+      "same_as_released": false
+    },
+    {
+      "tau": 0.95,
+      "hits": 112,
+      "same_as_released": false
+    }
+  ]
+}

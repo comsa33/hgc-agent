@@ -1,0 +1,51 @@
+query_id,gold_answer,predicted_answer,your_label,justification
+1909.08970_q0,accuracy of 30.3%...,The best baseline model... 30.3%...,yes,Accuracy figure matches exactly.
+1503.00841_q1,a regularization term...,The three regularization terms are...,yes,All three regularization terms match by name.
+1909.10012_q2,Influential leaders...,Political handles...,yes,Key behavioural pattern around profile changes matches.
+1903.03530_q3,1264 instances from simulated data...,They hold out samples from the simulated data...,no,Omits decisive details beyond the simulated data (e.g. OOD symptoms).
+1802.00396_q2,corpus of state speeches...,They use a recently released corpus of state speeches...,yes,Dataset provenance matches.
+1611.03599_q1,eight layers,I don't know.,no,Answered that the number of floors is unidentifiable.
+1908.08345_q2,CNN/DailyMail... NYT... XSum,The datasets utilized... CNN/DailyMail... NYT... XSum,yes,The list of datasets used matches.
+1707.03569_q1,They decrease MAE in 0.34,I don't know.,no,Answered that the improvement result is unidentifiable.
+1903.11437_q5,English German French,"English, German, and French.",yes,All three languages match exactly.
+1810.12196_q4,TripAdvisor,TripAdvisor,yes,Review-data source matches.
+1611.03599_q1,eight layers,I don't know.,no,Answered as unidentifiable.
+1908.09246_q0,UNANSWERABLE,I don't know.,yes,Acknowledges the absence of information in the same sense.
+1809.06537_q0,AutoJudge consistently...,AutoJudge consistently...,yes,Key performance-comparison result matches.
+1611.03599_q1,eight layers,I don't know.,no,Answered as unidentifiable.
+1901.10133_q2,no,I don't know.,no,Confuses a definite no with uncertainty (I don't know).
+1909.06162_q1,Linguistic,...pre-trained embeddings...,no,Omits the key attribute (Linguistic).
+1706.09673_q1,no,I don't know.,no,Confuses a definite no with uncertainty.
+1806.00738_q2,no,"Yes, the input includes...",no,States the opposite as to whether it is included.
+1912.03627_q1,The speech was collected... android application.,...gathered using crowdsourcing... Android application...,yes,Collection method via an Android app matches.
+1806.04511_q2,SemEval-2016 Challenge Task 5...,...SemEval-2016 Challenge Task 5.,yes,Evaluation dataset source matches.
+1912.08904_q2,seeker interacts with a real conversational interface intermediary...,...human simulates the behavior...,yes,Matches on the core idea that a human simulates the system.
+1906.01081_q2,Best proposed metric has average correlation... 0.913 and 0.846...,...competitive with or better than... exact numerical extent... is not specified,no,Fails to produce the specific correlation figure.
+1909.06200_q4,Irony accuracy is judged only by human ; senriment preservation and content preservation are judged both by human and using automatic metrics...,Four annotators... evaluated...,no,"Omits that automatic metrics (ACC, BLEU) were used."
+1909.01362_q1,Conversations Gone Awry' dataset subreddit ChangeMyView,...Conversations Gone Awry... ChangeMyView...,yes,Both dataset names match.
+2002.04181_q0,people in the US that use Amazon Mechanical Turk,...located in the US and hired on the BIBREF22 platform.,no,Names a different crowdworker platform.
+1706.01875_q2,US presidential primaries Democratic and Republican National Conventions,I don't know.,no,Fails to identify the political event.
+1907.09369_q2,Wang et al. ...,The two baselines that have been applied are: 1. The approach by Wang et al... 2. The approach reported by BIBREF33...,no,Wrongly includes a baseline absent from the gold answer.
+1909.03135_q3,"2174000000, 989000000",The exact sizes... are not provided...,no,Omits the specific dataset size.
+1911.03059_q1,Multi-Layer Perceptron (MLP)...,...Multi-Layer Perceptron (MLP)...,yes,The list of evaluated machine-learning methods matches exactly.
+1911.07555_q4,Nguni languages... Sotho languages...,The Nguni languages... Sotho languages...,yes,Language grouping and similarity account both match.
+1908.06267_q2,doc2vec CNN DAN...,I don't know.,no,Answered that the technique is unidentifiable.
+1909.13104_q6,LastStateRNN AvgRNN AttentionRNN,I don't know.,no,Answered as unidentifiable.
+1908.06264_q1,Friends EmotionPush,Friends and EmotionPush.,yes,List of datasets used matches.
+1503.00841_q1,a regularization term...,The three regularization terms are...,yes,Regularization term names match.
+1908.07245_q1,construct context-gloss pairs...,"Yes, they incorporate WordNet... by constructing context-gloss pairs...",yes,Description of how WordNet is integrated matches.
+1912.01214_q0,BIBREF19 BIBREF20,"...pivoting, multilingual NMT...",no,Lists general techniques instead of the specific cited work.
+1908.05828_q4,BiLSTM BiLSTM-CNN...,"The types... BiLSTM, BiLSTM-CNN... CNN model, and Stanford CRF model.",no,Includes an extra model absent from the gold answer.
+2002.12612_q0,mainstream news and disinformation,...mainstream news and disinformation news.,yes,News-domain distinction matches.
+1901.05287_q0,yes,"Yes, prior studies have assessed...",yes,Affirmative answer and prior-work examples both fit.
+1905.12801_q4,UNANSWERABLE,The metrics employed... are: 1. Co-occurrence bias...,no,Hallucinates specific metrics for an unanswerable item.
+1810.04428_q4,"training set has 89,042...","- WikiSmall: Training set: 89,042...",yes,Dataset dimensionality matches.
+1806.11432_q0,Words that a user wants them to appear in the generated output.,"The keywords specified... are ""subway"" and ""manhattan"".",no,Emits specific keyword examples where a general definition was asked for.
+1910.06592_q4,Sentiment Morality Style Words embeddings,The features obtained are: - Emotion... - Sentiment... - Morality... - Style... - Word embeddings...,yes,Covers all of the requested attributes.
+1909.00175_q0,F1 score of 92.19...,I don't know.,no,Answered that the figure is unidentifiable.
+1902.09666_q4,"non-targeted profanity and swearing, targeted insults...",The types of offensive material addressed are: 1. Targeted insults... 2. Untargeted profanity...,yes,Distinction between offensive-content types matches.
+1810.12196_q0,These 8 tasks require different competencies...,...Yes/No questions and rating questions.,no,Answers with a question instead of describing the required capability.
+1908.07195_q1,ARAM has achieved improvement over all baseline methods...,I don't know.,no,Answered that the improvement figure is unidentifiable.
+1704.04452_q5,"concept map BIBREF5 , a labeled graph...",A concept map is defined as a labeled graph...,yes,Definition of a concept map matches.
+1805.03710_q0,UNANSWERABLE,I don't know.,no,Confuses an explicit UNANSWERABLE with uncertainty (don't know).
+1902.09666_q5,CNN,The CNN model achieves the highest performance.,yes,Best-performing model name matches.
